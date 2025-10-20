@@ -1,7 +1,9 @@
 <div class="container back">
   <div class="example-sentence-container">
     <div class="example-sentence">{{cloze:ExampleSentence}}</div>
-
+    <span style="display: none"
+      >{{tts it_IT voices=AwesomeTTS:cloze:ExampleSentence}}</span
+    >
     <div class="meta">
       {{#WordPOS}}
       <div class="pill">{{WordPOS}}</div>
