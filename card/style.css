@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
 
 :root {
   /* Colors */
@@ -50,10 +50,10 @@
   /* Layout */
   --max-width: 540px;
 
-  --font-family-serif: "DM Serif Text", "Georgia", "Times New Roman", "Times",
-    serif;
-  --font-family-sans-serif: "DM Sans", "Inter", "Segoe UI", "Roboto",
-    "Helvetica Neue", "Arial", sans-serif;
+  --font-family-serif: "Source Serif 4", "DM Serif Text", "Georgia",
+    "Times New Roman", "Times", serif;
+  --font-family-sans-serif: "Source Sans 3", "DM Sans", "Inter", "Segoe UI",
+    "Roboto", "Helvetica Neue", "Arial", sans-serif;
 }
 
 .container {
@@ -83,7 +83,7 @@
 
 .example-sentence {
   font-size: var(--example-font-size);
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .meta {
@@ -118,13 +118,13 @@
 
 .translation-word {
   font-size: var(--translation-word-font-size);
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .translation-sentence {
   font-size: var(--translation-sentence-font-size);
   color: var(--color-zinc-600);
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .cloze {
