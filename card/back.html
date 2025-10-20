@@ -1,0 +1,19 @@
+<div class="container back">
+  <div class="example-sentence-container">
+    <div class="example-sentence">{{cloze:ExampleSentence}}</div>
+
+    {{#WordPOS}}
+    <div class="pos">{{WordPOS}}</div>
+    {{/WordPOS}}
+    <span style="display: none"
+      >{{tts it_IT voices=AwesomeTTS:cloze:ExampleSentence}}</span
+    >
+  </div>
+
+  <div class="translation-container">
+    <div class="translation">
+      <div class="translation-word">{{TranslationWord}}</div>
+    </div>
+    <div class="translation-sentence">{{TranslationSentence}}</div>
+  </div>
+</div>

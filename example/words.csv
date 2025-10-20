@@ -1,0 +1,28 @@
+Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence
+borsa;La ragazza ha comprato una {{c1::borsa}}.;noun, feminine, singular;bag;The girl bought a bag.
+specchio;La ragazza si guarda nello {{c1::specchio}}.;noun, masculine, singular;mirror;The girl looks at herself in the mirror.
+sciroppo;Il dottore mi ha prescritto uno {{c1::sciroppo}} per la tosse.;noun, masculine, singular;syrup;The doctor prescribed me a syrup for the cough.
+tosse;Ho una {{c1::tosse}} secca che non passa.;noun, feminine, singular;cough;I have a dry cough that won't go away.
+ricevuta;Ecco la {{c1::ricevuta}} per la visita medica.;noun, feminine, singular;receipt;Here's the receipt for the medical visit.
+mettere;Devo {{c1::mettere}} il ghiaccio sulla ferita.;verb, infinitive;put;I need to put ice on the wound.
+ginocchio;Mi fa male il {{c1::ginocchio}} destro.;noun, masculine, singular;knee;My right knee hurts.
+febbre;La {{c1::febbre}} è alta, 39 gradi.;noun, feminine, singular;fever;The fever is high, 39 degrees.
+punto;Il dottore ha fatto un {{c1::punto}} di sutura.;noun, masculine, singular;stitch;The doctor made a suture stitch.
+torcicollo;Ho un {{c1::torcicollo}} terribile.;noun, masculine, singular;stiff neck;I have a terrible stiff neck.
+ubriaca;La ragazza è {{c1::ubriaca}} e non può guidare.;adj, feminine, singular;drunk;The girl is drunk and can't drive.
+sbornia;Ho una {{c1::sbornia}} tremenda stamattina.;noun, feminine, singular;hangover;I have a terrible hangover this morning.
+dopo sbornia;Il {{c1::dopo sbornia}} è sempre peggio della sbornia.;noun, masculine, singular;hangover;The hangover is always worse than being drunk.
+allegro;Sono {{c1::allegro}} oggi, nonostante il mal di testa.;adj, masculine, singular;cheerful;I'm cheerful today, despite the headache.
+così;Mi sento {{c1::così}} stanco che non riesco a concentrarmi.;adv;so;I feel so tired that I can't concentrate.
+schiena;Mi fa male la {{c1::schiena}} dopo aver sollevato i pesi.;noun, feminine, singular;back;My back hurts after lifting weights.
+scottato;Sono {{c1::scottato}} dal sole.;adj, masculine, singular;sunburned;I'm sunburned from the sun.
+bruciare;Il sole può {{c1::bruciare}} la pelle.;verb, infinitive;burn;The sun can burn the skin.
+bruciato;Ho la pelle {{c1::bruciata}} dal sole.;adj, feminine, singular;burned;My skin is burned from the sun.
+insolazione;Ho preso un'{{c1::insolazione}} al mare.;noun, feminine, singular;sunstroke;I got sunstroke at the beach.
+succeda;Spero che non {{c1::succeda}} niente di grave.;verb, 3rd person singular, presente;happen;I hope nothing serious happens.
+qualche tempo;Ci vorrà {{c1::qualche tempo}} per guarire.;noun, masculine, singular;some time;It will take some time to heal.
+sutura;Il chirurgo ha fatto una {{c1::sutura}} perfetta.;noun, feminine, singular;suture;The surgeon made a perfect suture.
+rompere;Non {{c1::rompere}} il braccio cadendo.;verb, infinitive;break;Don't break your arm falling.
+rotto;Ho il braccio {{c1::rotto}}.;adj, masculine, singular;broken;I have a broken arm.
+punti;Il dottore ha tolto i {{c1::punti}} oggi.;noun, masculine, plural;stitches;The doctor removed the stitches today.
+infarto;Ha avuto un {{c1::infarto}} al cuore.;noun, masculine, singular;heart attack;He had a heart attack.
