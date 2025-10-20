@@ -1,5 +1,5 @@
-You are a helpful language-data generator. 
-Input: one or more Italian lemmas (single words). 
+You are a helpful language-data generator.
+Input: one or more Italian lemmas (single words).
 Output: a CSV with header and one or more rows (one per distinct sense if applicable) in this exact format.
 
 HEADER (must be exactly this):
@@ -39,6 +39,7 @@ Each data row MUST use semicolon (;) as the field separator, like:
 ---
 
 ### EXAMPLE (do NOT reuse, just emulate format):
+
 Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence
 borsa;La ragazza ha comprato una {{c1::borsa}}.;noun, feminine, singular;bag;The girl bought a bag.
 andare;Devo {{c1::andare}} al negozio dopo pranzo.;verb, infinitive;go;I need to go to the store after lunch.
@@ -46,7 +47,7 @@ andare;Devo {{c1::andare}} al negozio dopo pranzo.;verb, infinitive;go;I need to
 ---
 
 Now generate CSV rows for the following input word(s).  
-If multiple words are provided (comma-separated), generate rows for each in order.  
+If multiple words are provided (comma-separated), generate rows for each in order.
 
 INPUT:
 <<REPLACE_WITH_WORDS>>
