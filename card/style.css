@@ -11,6 +11,18 @@
   --zinc-800: oklch(21% 0.006 285.885);
   --zinc-900: oklch(14.1% 0.005 285.823);
 
+  --color-royal-blue-50: #ecf0ff;
+  --color-royal-blue-100: #dde4ff;
+  --color-royal-blue-200: #c2cdff;
+  --color-royal-blue-300: #9cabff;
+  --color-royal-blue-400: #757dff;
+  --color-royal-blue-500: #615fff;
+  --color-royal-blue-600: #4736f5;
+  --color-royal-blue-700: #3d2ad8;
+  --color-royal-blue-800: #3225ae;
+  --color-royal-blue-900: #2c2689;
+  --color-royal-blue-950: #1c1650;
+
   /* Typography */
   --base-font-size: 18px;
   --example-font-size: 1.6em;
@@ -21,6 +33,7 @@
   /* Spacing */
   --container-padding: 20px;
   --padding-small: 5px 10px;
+  --gap-xsmall: 5px;
   --gap-small: 10px;
   --gap-medium: 20px;
 
@@ -30,7 +43,6 @@
 
   /* Layout */
   --max-width: 540px;
-  --pos-opacity: 60%;
 }
 
 .container {
@@ -48,6 +60,8 @@
   max-width: var(--max-width);
   letter-spacing: 0.025em;
   color: var(--zinc-900);
+  position: relative;
+  text-align: left;
 }
 
 .example-sentence-container {
@@ -62,14 +76,24 @@
   font-weight: bold;
 }
 
-.pos {
+.meta {
   font-family: "DM sans", sans-serif;
   font-size: var(--pos-font-size);
-  opacity: var(--pos-opacity);
-  background-color: var(--zinc-300);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: var(--gap-small);
+  width: 100%;
+}
+.pill {
+  background-color: var(--zinc-200);
   padding: var(--padding-small);
   border-radius: var(--border-radius-small);
   width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: var(--gap-xsmall);
 }
 
 .translation-container {
@@ -95,7 +119,7 @@
 
 .cloze {
   background-color: var(--zinc-300);
-  padding: 5px 10px;
+  padding: var(--padding-xsmall) var(--padding-small);
   border-radius: 5px;
   width: fit-content;
   color: transparent;
@@ -113,4 +137,15 @@
   padding-left: 10px;
   padding-right: 10px;
   transition: all 0.3s ease-in-out;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+}
+
+a {
+  color: var(--color-royal-blue-400);
+  text-decoration: none;
+  fill: var(--color-royal-blue-500);
 }

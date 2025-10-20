@@ -2,9 +2,11 @@
   <div class="example-sentence-container">
     <div class="example-sentence">{{cloze:ExampleSentence}}</div>
 
-    {{#WordPOS}}
-    <div class="pos">{{WordPOS}}</div>
-    {{/WordPOS}}
+    <div class="meta">
+      {{#WordPOS}}
+      <div class="pill">{{WordPOS}}</div>
+      {{/WordPOS}}
+    </div>
   </div>
 
   <div class="translation-container">
