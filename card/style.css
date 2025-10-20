@@ -69,7 +69,6 @@
   align-items: left;
   justify-content: left;
   max-width: var(--max-width);
-  letter-spacing: 0.025em;
   color: var(--color-zinc-900);
   position: relative;
   text-align: left;
@@ -191,7 +190,7 @@ a {
 
 .nightMode .back .cloze {
   background-color: var(--color-indigo-600);
-  color: var(--color-indigo-50);
+  color: var(--color-white);
 }
 
 .nightMode a {
@@ -200,5 +199,5 @@ a {
 }
 
 .nightMode .help {
-  background-color: var(--color-indigo-700);
+  background-color: var(--color-indigo-600);
 }
