@@ -1,204 +1,626 @@
-Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence
-borsa;La ragazza ha comprato una {{c1::borsa}}.;noun, feminine, singular;bag;The girl bought a bag.
-specchio;La ragazza si guarda nello {{c1::specchio}}.;noun, masculine, singular;mirror;The girl looks at herself in the mirror.
-sciroppo;Il dottore mi ha prescritto uno {{c1::sciroppo}} per la tosse.;noun, masculine, singular;syrup;The doctor prescribed me a syrup for the cough.
-tosse;Ho una {{c1::tosse}} secca che non passa.;noun, feminine, singular;cough;I have a dry cough that won't go away.
-ricevuta;Ecco la {{c1::ricevuta}} per la visita medica.;noun, feminine, singular;receipt;Here's the receipt for the medical visit.
-mettere;Devo {{c1::mettere}} il ghiaccio sulla ferita.;verb, infinitive;put;I need to put ice on the wound.
-ginocchio;Mi fa male il {{c1::ginocchio}} destro.;noun, masculine, singular;knee;My right knee hurts.
-febbre;La {{c1::febbre}} è alta, 39 gradi.;noun, feminine, singular;fever;The fever is high, 39 degrees.
-punto;Il dottore ha fatto un {{c1::punto}} di sutura.;noun, masculine, singular;stitch;The doctor made a suture stitch.
-torcicollo;Ho un {{c1::torcicollo}} terribile.;noun, masculine, singular;stiff neck;I have a terrible stiff neck.
-ubriaca;La ragazza è {{c1::ubriaca}} e non può guidare.;adj, feminine, singular;drunk;The girl is drunk and can't drive.
-sbornia;Ho una {{c1::sbornia}} tremenda stamattina.;noun, feminine, singular;hangover;I have a terrible hangover this morning.
-dopo sbornia;Il {{c1::dopo sbornia}} è sempre peggio della sbornia.;noun, masculine, singular;hangover;The hangover is always worse than being drunk.
-allegro;Sono {{c1::allegro}} oggi, nonostante il mal di testa.;adj, masculine, singular;cheerful;I'm cheerful today, despite the headache.
-così;Mi sento {{c1::così}} stanco che non riesco a concentrarmi.;adv;so;I feel so tired that I can't concentrate.
-schiena;Mi fa male la {{c1::schiena}} dopo aver sollevato i pesi.;noun, feminine, singular;back;My back hurts after lifting weights.
-scottato;Sono {{c1::scottato}} dal sole.;adj, masculine, singular;sunburned;I'm sunburned from the sun.
-bruciare;Il sole può {{c1::bruciare}} la pelle.;verb, infinitive;burn;The sun can burn the skin.
-bruciato;Ho la pelle {{c1::bruciata}} dal sole.;adj, feminine, singular;burned;My skin is burned from the sun.
-insolazione;Ho preso un'{{c1::insolazione}} al mare.;noun, feminine, singular;sunstroke;I got sunstroke at the beach.
-succeda;Spero che non {{c1::succeda}} niente di grave.;verb, 3rd person singular, presente;happen;I hope nothing serious happens.
-qualche tempo;Ci vorrà {{c1::qualche tempo}} per guarire.;noun, masculine, singular;some time;It will take some time to heal.
-sutura;Il chirurgo ha fatto una {{c1::sutura}} perfetta.;noun, feminine, singular;suture;The surgeon made a perfect suture.
-rompere;Non {{c1::rompere}} il braccio cadendo.;verb, infinitive;break;Don't break your arm falling.
-rotto;Ho il braccio {{c1::rotto}}.;adj, masculine, singular;broken;I have a broken arm.
-punti;Il dottore ha tolto i {{c1::punti}} oggi.;noun, masculine, plural;stitches;The doctor removed the stitches today.
-infarto;Ha avuto un {{c1::infarto}} al cuore.;noun, masculine, singular;heart attack;He had a heart attack.
-salta;Il bambino {{c1::salta}} nel cortile.;verb, 3rd person singular, presente;jump;The child jumps in the courtyard.
-tagli;Il cuoco fa dei {{c1::tagli}} nella carne.;noun, masculine, plural;cuts;The cook makes cuts in the meat.
-smettila;{{c1::Smettila}} di fare rumore!;verb, 2nd person singular, imperativo;stop it;Stop making noise!
-inchiodare;Devo {{c1::inchiodare}} questo quadro al muro.;verb, infinitive;nail;I need to nail this picture to the wall.
-arrivare in anticipo;Cerco sempre di {{c1::arrivare in anticipo}} agli appuntamenti.;verb, infinitive;arrive early;I always try to arrive early to appointments.
-proprio;Questo è il mio {{c1::proprio}} libro.;adj, masculine, singular;own;This is my own book.
-ingoiata;La pillola è stata {{c1::ingoiata}} con difficoltà.;verb, past participle, feminine, singular;swallowed;The pill was swallowed with difficulty.
-passo;Faccio un {{c1::passo}} alla volta.;noun, masculine, singular;step;I take one step at a time.
-appena;{{c1::Appena}} arrivo, ti telefono.;adv;as soon as;As soon as I arrive, I'll call you.
-processo;Il {{c1::processo}} di produzione è complesso.;noun, masculine, singular;process;The production process is complex.
-spiedo;Il pollo cuoce allo {{c1::spiedo}}.;noun, masculine, singular;spit;The chicken cooks on the spit.
-comprasse;Se {{c1::comprasse}} quella casa, sarebbe felice.;verb, 3rd person singular, congiuntivo imperfetto;bought;If he bought that house, he would be happy.
-rido;{{c1::Rido}} sempre alle sue battute.;verb, 1st person singular, presente;laugh;I always laugh at his jokes.
-taglia;Che {{c1::taglia}} porti?;noun, feminine, singular;size;What size do you wear?
-pista;La {{c1::pista}} di atletica è nuova.;noun, feminine, singular;track;The athletics track is new.
-armatore;L'{{c1::armatore}} ha molte navi.;noun, masculine, singular;shipowner;The shipowner has many ships.
-sprecata;Questa opportunità è stata {{c1::sprecata}}.;verb, past participle, feminine, singular;wasted;This opportunity was wasted.
-bomba;La {{c1::bomba}} è esplosa.;noun, feminine, singular;bomb;The bomb exploded.
-frequentare;{{c1::Frequentare}} l'università è importante.;verb, infinitive;attend;Attending university is important.
-come lo sa?;{{c1::Come lo sa?}} che sono qui?;phrase;how does he know?;How does he know that I'm here?
-reso;Ho {{c1::reso}} il libro alla biblioteca.;verb, past participle, masculine, singular;returned;I returned the book to the library.
-gareggiare;Vuole {{c1::gareggiare}} nella corsa.;verb, infinitive;compete;He wants to compete in the race.
-rischiando;{{c1::Rischiando}} tutto, ha investito i suoi soldi.;verb, gerundio;risking;Risking everything, he invested his money.
-lascia;{{c1::Lascia}} la porta aperta.;verb, 3rd person singular, presente;leave;Leave the door open.
-goditi;{{c1::Goditi}} la vacanza!;verb, 2nd person singular, imperativo;enjoy;Enjoy your vacation!
-riassunto;Il {{c1::riassunto}} del libro è breve.;noun, masculine, singular;summary;The book summary is brief.
-prova;Questa è una {{c1::prova}} difficile.;noun, feminine, singular;test;This is a difficult test.
-spezzato;Il vetro è {{c1::spezzato}}.;verb, past participle, masculine, singular;broken;The glass is broken.
-ancora;{{c1::Ancora}} non ho finito.;adv;still;I still haven't finished.
-crettino;Non essere un {{c1::crettino}}.;noun, masculine, singular;idiot;Don't be an idiot.
-devo;{{c1::Devo}} studiare per l'esame.;verb, 1st person singular, presente;must;I must study for the exam.
-incontrare;Domani {{c1::incontrare}} i miei amici.;verb, infinitive;meet;Tomorrow I will meet my friends.
-fico;Questo frutto è molto {{c1::fico}}.;adj, masculine, singular;cool;This fruit is very cool.
-navicelle;Le {{c1::navicelle}} spaziali sono costose.;noun, feminine, plural;spacecraft;Spacecraft are expensive.
-fisso;Il prezzo è {{c1::fisso}}.;adj, masculine, singular;fixed;The price is fixed.
-sballo;È stato un grande {{c1::sballo}}.;noun, masculine, singular;blast;It was a great blast.
-eppure;{{c1::Eppure}} non ha studiato.;conj;yet;Yet he didn't study.
-mandato;Ho {{c1::mandato}} una lettera.;verb, past participle, masculine, singular;sent;I sent a letter.
-scopi;I suoi {{c1::scopi}} sono chiari.;noun, masculine, plural;goals;His goals are clear.
-tutta da sola;L'ha fatto {{c1::tutta da sola}}.;phrase;all by herself;She did it all by herself.
-fosse;Se {{c1::fosse}} più alto, giocherebbe a basket.;verb, 3rd person singular, congiuntivo imperfetto;were;If he were taller, he would play basketball.
-tutto qui;È {{c1::tutto qui}}.;phrase;that's all;That's all.
-allegria;La {{c1::allegria}} è contagiosa.;noun, feminine, singular;joy;Joy is contagious.
-parente;Il mio {{c1::parente}} abita a Roma.;noun, masculine, singular;relative;My relative lives in Rome.
-pedalare;{{c1::Pedalare}} fa bene alla salute.;verb, infinitive;pedal;Pedaling is good for your health.
-nipote;La mia {{c1::nipote}} ha cinque anni.;noun, feminine, singular;niece;My niece is five years old.
-cose e successo;{{c1::Cose e successo}} nella vita.;phrase;things and success;Things and success in life.
-osceni;Quei gesti sono {{c1::osceni}}.;adj, masculine, plural;obscene;Those gestures are obscene.
-stronzo;Non essere uno {{c1::stronzo}}.;noun, masculine, singular;asshole;Don't be an asshole.
-scordato;Ho {{c1::scordato}} le chiavi.;verb, past participle, masculine, singular;forgotten;I forgot the keys.
-lottavi;{{c1::Lottavi}} per i tuoi diritti.;verb, 2nd person singular, imperfetto;fought;You fought for your rights.
-troppo;È {{c1::troppo}} tardi.;adv;too;It's too late.
-brava;Sei molto {{c1::brava}} in matematica.;adj, feminine, singular;good;You're very good at math.
-davanti;{{c1::Davanti}} alla casa c'è un giardino.;prep;in front of;In front of the house there's a garden.
-sorridevamo;{{c1::Sorridevamo}} guardando le foto.;verb, 1st person plural, imperfetto;we were smiling;We were smiling while looking at the photos.
-nittu;{{c1::Nittu}} è una parola dialettale.;noun, masculine, singular;night;Nittu is a dialectal word.
-lutto;La famiglia è in {{c1::lutto}}.;noun, masculine, singular;mourning;The family is in mourning.
-debosciata;È una persona {{c1::debosciata}}.;adj, feminine, singular;depraved;She's a depraved person.
-vattene;{{c1::Vattene}} via!;verb, 2nd person singular, imperativo;go away;Go away!
-spaventare;Non {{c1::spaventare}} il bambino.;verb, infinitive;scare;Don't scare the child.
-bugiarda;È una {{c1::bugiarda}}.;noun, feminine, singular;liar;She's a liar.
-stavamo;{{c1::Stavamo}} parlando quando è arrivato.;verb, 1st person plural, imperfetto;we were;We were talking when he arrived.
-amati;I bambini sono {{c1::amati}} dai genitori.;verb, past participle, masculine, plural;loved;Children are loved by their parents.
-somiglia;{{c1::Somiglia}} molto a sua madre.;verb, 3rd person singular, presente;resembles;He resembles his mother a lot.
-ladro;Il {{c1::ladro}} è stato arrestato.;noun, masculine, singular;thief;The thief was arrested.
-baglia;La {{c1::baglia}} è rotta.;noun, feminine, singular;bucket;The bucket is broken.
-cacchio;{{c1::Cacchio}} che bello!;interj;damn;Damn, how beautiful!
-ricordare;Non riesco a {{c1::ricordare}} il suo nome.;verb, infinitive;remember;I can't remember his name.
-consigli;I suoi {{c1::consigli}} sono sempre utili.;noun, masculine, plural;advice;His advice is always useful.
-fermiamo;{{c1::Fermiamo}} qui per pranzo.;verb, 1st person plural, presente;let's stop;Let's stop here for lunch.
-entrambi;{{c1::Entrambi}} i bambini giocano.;pronoun, masculine, plural;both;Both children are playing.
-subito;Vieni {{c1::subito}} qui!;adv;immediately;Come here immediately!
-pomata;Metti la {{c1::pomata}} sulla ferita.;noun, feminine, singular;ointment;Put the ointment on the wound.
-spalle;Le mie {{c1::spalle}} fanno male.;noun, feminine, plural;shoulders;My shoulders hurt.
-la salute;{{c1::La salute}} è importante.;noun, feminine, singular;health;Health is important.
-devi;{{c1::Devi}} studiare di più.;verb, 2nd person singular, presente;you must;You must study more.
-equilibrio;Mantieni l'{{c1::equilibrio}}.;noun, masculine, singular;balance;Keep your balance.
-salute;{{c1::Salute}} a tutti!;noun, feminine, singular;health;Cheers everyone!
-alcol;L'{{c1::alcol}} fa male.;noun, masculine, singular;alcohol;Alcohol is bad for you.
-consigliare;Ti {{c1::consigliare}} di riposare.;verb, infinitive;advise;I advise you to rest.
-schermi;Gli {{c1::schermi}} sono troppo piccoli.;noun, masculine, plural;screens;The screens are too small.
-ospedale;Vado all'{{c1::ospedale}}.;noun, masculine, singular;hospital;I'm going to the hospital.
-pronto soccorso;Il {{c1::pronto soccorso}} è al primo piano.;noun, masculine, singular;emergency room;The emergency room is on the first floor.
-studio medico;Il {{c1::studio medico}} è chiuso.;noun, masculine, singular;medical practice;The medical practice is closed.
-ambulatorio;L'{{c1::ambulatorio}} apre alle nove.;noun, masculine, singular;clinic;The clinic opens at nine.
-farmacia;La {{c1::farmacia}} è in centro.;noun, feminine, singular;pharmacy;The pharmacy is downtown.
-ricetta medica;Ho la {{c1::ricetta medica}}.;noun, feminine, singular;medical prescription;I have the medical prescription.
-medicine;Le {{c1::medicine}} sono costose.;noun, feminine, plural;medicines;Medicines are expensive.
-farmaci;I {{c1::farmaci}} sono nel cassetto.;noun, masculine, plural;medications;The medications are in the drawer.
-prescrizione;La {{c1::prescrizione}} è scaduta.;noun, feminine, singular;prescription;The prescription has expired.
-piramide alimentare;La {{c1::piramide alimentare}} mostra i cibi sani.;noun, feminine, singular;food pyramid;The food pyramid shows healthy foods.
-solito;Come {{c1::solito}}, arriva tardi.;adj, masculine, singular;usual;As usual, he arrives late.
-salutari;I cibi {{c1::salutari}} sono importanti.;adj, masculine, plural;healthy;Healthy foods are important.
-roba;Questa {{c1::roba}} non serve.;noun, feminine, singular;stuff;This stuff is useless.
-fidanzato;Il mio {{c1::fidanzato}} è gentile.;noun, masculine, singular;boyfriend;My boyfriend is kind.
-soprattutto;{{c1::Soprattutto}} la matematica.;adv;especially;Especially mathematics.
-per lo più;{{c1::Per lo più}} vado in bici.;phrase;mostly;I mostly go by bike.
-comune;È un problema {{c1::comune}}.;adj, masculine, singular;common;It's a common problem.
-almeno;{{c1::Almeno}} tre persone.;adv;at least;At least three people.
-tradizioni;Le {{c1::tradizioni}} sono importanti.;noun, feminine, plural;traditions;Traditions are important.
-malpasto;Il {{c1::malpasto}} è stato terribile.;noun, masculine, singular;bad meal;The bad meal was terrible.
-prospettive;Le {{c1::prospettive}} sono buone.;noun, feminine, plural;prospects;The prospects are good.
-vi chiedo;{{c1::Vi chiedo}} di aspettare.;phrase;I ask you;I ask you to wait.
-per niente;Non mi piace {{c1::per niente}}.;phrase;not at all;I don't like it at all.
-mettere;{{c1::Mettere}} i libri sulla scrivania.;verb, infinitive;put;Put the books on the desk.
-panna;La {{c1::panna}} è fresca.;noun, feminine, singular;cream;The cream is fresh.
-tradurre;Devo {{c1::tradurre}} questo testo.;verb, infinitive;translate;I need to translate this text.
-mescola;{{c1::Mescola}} gli ingredienti.;verb, 2nd person singular, imperativo;mix;Mix the ingredients.
-compra;{{c1::Compra}} il pane.;verb, 2nd person singular, imperativo;buy;Buy the bread.
-taglia;Che {{c1::taglia}} porti?;noun, feminine, singular;size;What size do you wear?
-prendi;{{c1::Prendi}} le chiavi.;verb, 2nd person singular, imperativo;take;Take the keys.
-metti;{{c1::Metti}} il cappotto.;verb, 2nd person singular, imperativo;put on;Put on your coat.
-arriviamo;{{c1::Arriviamo}} domani.;verb, 1st person plural, presente;we arrive;We arrive tomorrow.
-viso;Il suo {{c1::viso}} è bello.;noun, masculine, singular;face;His face is beautiful.
-uguale;Sono {{c1::uguale}}.;adj, masculine, singular;equal;They are equal.
-scherzo;È uno {{c1::scherzo}}.;noun, masculine, singular;joke;It's a joke.
-delitto;Il {{c1::delitto}} è grave.;noun, masculine, singular;crime;The crime is serious.
-arrabbiato;Sono {{c1::arrabbiato}}.;adj, masculine, singular;angry;I'm angry.
-sarà;{{c1::Sarà}} una bella giornata.;verb, 3rd person singular, futuro;will be;It will be a beautiful day.
-preoccuparti;Non {{c1::preoccuparti}}.;verb, infinitive;worry;Don't worry.
-supposizione;È solo una {{c1::supposizione}}.;noun, feminine, singular;supposition;It's just a supposition.
-esprimere;Devo {{c1::esprimere}} la mia opinione.;verb, infinitive;express;I need to express my opinion.
-incerto;Il risultato è {{c1::incerto}}.;adj, masculine, singular;uncertain;The result is uncertain.
-dubbio;Ho un {{c1::dubbio}}.;noun, masculine, singular;doubt;I have a doubt.
-parare;Devo {{c1::parare}} il colpo.;verb, infinitive;parry;I need to parry the blow.
-capito;Ho {{c1::capito}} tutto.;verb, past participle, masculine, singular;understood;I understood everything.
-spesso;Vado {{c1::spesso}} al cinema.;adv;often;I often go to the cinema.
-sottocutaneo;L'iniezione è {{c1::sottocutaneo}}.;adj, masculine, singular;subcutaneous;The injection is subcutaneous.
-pelle;La {{c1::pelle}} è sensibile.;noun, feminine, singular;skin;The skin is sensitive.
-collegato;Il computer è {{c1::collegato}}.;verb, past participle, masculine, singular;connected;The computer is connected.
-corrente;La {{c1::corrente}} è forte.;noun, feminine, singular;current;The current is strong.
-scaricheremo;{{c1::Scaricheremo}} i file domani.;verb, 1st person plural, futuro;we will download;We will download the files tomorrow.
-chiavetta;Ho perso la {{c1::chiavetta}}.;noun, feminine, singular;USB stick;I lost the USB stick.
-gireremo;{{c1::Gireremo}} il film.;verb, 1st person plural, futuro;we will shoot;We will shoot the film.
-credo;{{c1::Credo}} che sia vero.;verb, 1st person singular, presente;I believe;I believe it's true.
-pericolo;C'è {{c1::pericolo}}.;noun, masculine, singular;danger;There is danger.
-rabbatte;{{c1::Rabbatte}} il cappello.;verb, 2nd person singular, imperativo;pull down;Pull down your hat.
-eravamo;{{c1::Eravamo}} in vacanza.;verb, 1st person plural, imperfetto;we were;We were on vacation.
-accordo;Siamo d'{{c1::accordo}}.;noun, masculine, singular;agreement;We are in agreement.
-secondo;{{c1::Secondo}} me, hai ragione.;prep;according to;According to me, you're right.
-tolgono;{{c1::Tolgono}} i piatti.;verb, 3rd person plural, presente;they remove;They remove the dishes.
-fattori;I {{c1::fattori}} sono importanti.;noun, masculine, plural;factors;The factors are important.
-minoranze linguistiche;Le {{c1::minoranze linguistiche}} sono protette.;noun, feminine, plural;linguistic minorities;Linguistic minorities are protected.
-ceppo linguistico;Il {{c1::ceppo linguistico}} è antico.;noun, masculine, singular;language family;The language family is ancient.
-eredità;La {{c1::eredità}} è grande.;noun, feminine, singular;heritage;The heritage is great.
-eliminare;Devo {{c1::eliminare}} questo file.;verb, infinitive;eliminate;I need to eliminate this file.
-cancellare;{{c1::Cancellare}} il testo.;verb, infinitive;delete;Delete the text.
-diversi;Abbiamo {{c1::diversi}} libri.;adj, masculine, plural;several;We have several books.
-espetta;{{c1::Espetta}} un momento.;verb, 2nd person singular, imperativo;wait;Wait a moment.
-lingue di minoranza;Le {{c1::lingue di minoranza}} sono tutelate.;noun, feminine, plural;minority languages;Minority languages are protected.
-linguaggio dei segni;Il {{c1::linguaggio dei segni}} è importante.;noun, masculine, singular;sign language;Sign language is important.
-aggiungere;Devo {{c1::aggiungere}} il sale.;verb, infinitive;add;I need to add salt.
-ungherese;Parlo {{c1::ungherese}}.;adj, masculine, singular;Hungarian;I speak Hungarian.
-contre;{{c1::Contre}} la parete.;prep;against;Against the wall.
-istruzione;L'{{c1::istruzione}} è gratuita.;noun, feminine, singular;education;Education is free.
-riguarda;Questo {{c1::riguarda}} tutti.;verb, 3rd person singular, presente;concerns;This concerns everyone.
-rivedremo;{{c1::Rivedremo}} il progetto.;verb, 1st person plural, futuro;we will review;We will review the project.
-davvero;È {{c1::davvero}} bello.;adv;really;It's really beautiful.
-ulivi e vigneti;Gli {{c1::ulivi e vigneti}} sono tipici.;noun, masculine, plural;olive trees and vineyards;Olive trees and vineyards are typical.
-rompigetto;Il {{c1::rompigetto}} è rotto.;noun, masculine, singular;faucet aerator;The faucet aerator is broken.
-arredamento;L'{{c1::arredamento}} è moderno.;noun, masculine, singular;furniture;The furniture is modern.
-immobili;Gli {{c1::immobili}} sono costosi.;noun, masculine, plural;real estate;Real estate is expensive.
-cascina;La {{c1::cascina}} è antica.;noun, feminine, singular;farmhouse;The farmhouse is old.
-condominio;Vivo in un {{c1::condominio}}.;noun, masculine, singular;condominium;I live in a condominium.
-villetta a schiera;La {{c1::villetta a schiera}} è nuova.;noun, feminine, singular;townhouse;The townhouse is new.
-palazzo;Il {{c1::palazzo}} è alto.;noun, masculine, singular;building;The building is tall.
-sogni;I {{c1::sogni}} sono belli.;noun, masculine, plural;dreams;Dreams are beautiful.
-albero;L'{{c1::albero}} è grande.;noun, masculine, singular;tree;The tree is big.
-abbastanza;Sono {{c1::abbastanza}} stanco.;adv;quite;I'm quite tired.
-vicino;Abito {{c1::vicino}} alla scuola.;adv;near;I live near the school.
-scegliamo;{{c1::Scegliamo}} il ristorante.;verb, 1st person plural, presente;we choose;We choose the restaurant.
-tanto;{{c1::Tanto}} tempo fa.;adv;so long;So long ago.
-segreteria;La {{c1::segreteria}} è chiusa.;noun, feminine, singular;secretariat;The secretariat is closed.
-segretaria;La {{c1::segretaria}} è efficiente.;noun, feminine, singular;secretary;The secretary is efficient.
-macchina da scrivere;La {{c1::macchina da scrivere}} è vecchia.;noun, feminine, singular;typewriter;The typewriter is old.
-registratore vocale;Il {{c1::registratore vocale}} funziona.;noun, masculine, singular;voice recorder;The voice recorder works.
+Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence;TTSSentence;Audio
+borsa;La ragazza ha comprato una {{c1::borsa}}.;noun, feminine, singular;bag;The girl bought a bag.;La ragazza ha comprato una borsa.;
+specchio;La ragazza si guarda nello {{c1::specchio}}.;noun, masculine, singular;mirror;The girl looks at herself in the mirror.;La ragazza si guarda nello specchio.;
+sciroppo;Il dottore mi ha prescritto uno {{c1::sciroppo}} per la tosse.;noun, masculine, singular;syrup;The doctor prescribed me a syrup for the cough.;Il dottore mi ha prescritto uno sciroppo per la tosse.;
+tosse;Ho una {{c1::tosse}} secca che non passa.;noun, feminine, singular;cough;I have a dry cough that won't go away.;Ho una tosse secca che non passa.;
+ricevuta;Ecco la {{c1::ricevuta}} per la visita medica.;noun, feminine, singular;receipt;Here's the receipt for the medical visit.;Ecco la ricevuta per la visita medica.;
+mettere;Devo {{c1::mettere}} il ghiaccio sulla ferita.;verb, infinitive;put;I need to put ice on the wound.;Devo mettere il ghiaccio sulla ferita.;
+ginocchio;Mi fa male il {{c1::ginocchio}} destro.;noun, masculine, singular;knee;My right knee hurts.;Mi fa male il ginocchio destro.;
+febbre;La {{c1::febbre}} è alta, 39 gradi.;noun, feminine, singular;fever;The fever is high, 39 degrees.;La febbre è alta, 39 gradi.;
+punto;Il dottore ha fatto un {{c1::punto}} di sutura.;noun, masculine, singular;stitch;The doctor made a suture stitch.;Il dottore ha fatto un punto di sutura.;
+torcicollo;Ho un {{c1::torcicollo}} terribile.;noun, masculine, singular;stiff neck;I have a terrible stiff neck.;Ho un torcicollo terribile.;
+ubriaca;La ragazza è {{c1::ubriaca}} e non può guidare.;adj, feminine, singular;drunk;The girl is drunk and can't drive.;La ragazza è ubriaca e non può guidare.;
+sbornia;Ho una {{c1::sbornia}} tremenda stamattina.;noun, feminine, singular;hangover;I have a terrible hangover this morning.;Ho una sbornia tremenda stamattina.;
+dopo sbornia;Il {{c1::dopo sbornia}} è sempre peggio della sbornia.;noun, masculine, singular;hangover;The hangover is always worse than being drunk.;Il dopo sbornia è sempre peggio della sbornia.;
+allegro;Sono {{c1::allegro}} oggi, nonostante il mal di testa.;adj, masculine, singular;cheerful;I'm cheerful today, despite the headache.;Sono allegro oggi, nonostante il mal di testa.;
+così;Mi sento {{c1::così}} stanco che non riesco a concentrarmi.;adv;so;I feel so tired that I can't concentrate.;Mi sento così stanco che non riesco a concentrarmi.;
+schiena;Mi fa male la {{c1::schiena}} dopo aver sollevato i pesi.;noun, feminine, singular;back;My back hurts after lifting weights.;Mi fa male la schiena dopo aver sollevato i pesi.;
+scottato;Sono {{c1::scottato}} dal sole.;adj, masculine, singular;sunburned;I'm sunburned from the sun.;Sono scottato dal sole.;
+bruciare;Il sole può {{c1::bruciare}} la pelle.;verb, infinitive;burn;The sun can burn the skin.;Il sole può bruciare la pelle.;
+bruciato;Ho la pelle {{c1::bruciata}} dal sole.;adj, feminine, singular;burned;My skin is burned from the sun.;Ho la pelle bruciata dal sole.;
+insolazione;Ho preso un'{{c1::insolazione}} al mare.;noun, feminine, singular;sunstroke;I got sunstroke at the beach.;Ho preso un'insolazione al mare.;
+succeda;Spero che non {{c1::succeda}} niente di grave.;verb, 3rd person singular, presente;happen;I hope nothing serious happens.;Spero che non succeda niente di grave.;
+qualche tempo;Ci vorrà {{c1::qualche tempo}} per guarire.;noun, masculine, singular;some time;It will take some time to heal.;Ci vorrà qualche tempo per guarire.;
+sutura;Il chirurgo ha fatto una {{c1::sutura}} perfetta.;noun, feminine, singular;suture;The surgeon made a perfect suture.;Il chirurgo ha fatto una sutura perfetta.;
+rompere;Non {{c1::rompere}} il braccio cadendo.;verb, infinitive;break;Don't break your arm falling.;Non rompere il braccio cadendo.;
+rotto;Ho il braccio {{c1::rotto}}.;adj, masculine, singular;broken;I have a broken arm.;Ho il braccio rotto.;
+punti;Il dottore ha tolto i {{c1::punti}} oggi.;noun, masculine, plural;stitches;The doctor removed the stitches today.;Il dottore ha tolto i punti oggi.;
+infarto;Ha avuto un {{c1::infarto}} al cuore.;noun, masculine, singular;heart attack;He had a heart attack.;Ha avuto un infarto al cuore.;
+salta;Il bambino {{c1::salta}} nel cortile.;verb, 3rd person singular, presente;jump;The child jumps in the courtyard.;Il bambino salta nel cortile.;
+tagli;Il cuoco fa dei {{c1::tagli}} nella carne.;noun, masculine, plural;cuts;The cook makes cuts in the meat.;Il cuoco fa dei tagli nella carne.;
+smettila;{{c1::Smettila}} di fare rumore!;verb, 2nd person singular, imperativo;stop it;Stop making noise!;Smettila di fare rumore!;
+inchiodare;Devo {{c1::inchiodare}} questo quadro al muro.;verb, infinitive;nail;I need to nail this picture to the wall.;Devo inchiodare questo quadro al muro.;
+arrivare in anticipo;Cerco sempre di {{c1::arrivare in anticipo}} agli appuntamenti.;verb, infinitive;arrive early;I always try to arrive early to appointments.;Cerco sempre di arrivare in anticipo agli appuntamenti.;
+proprio;Questo è il mio {{c1::proprio}} libro.;adj, masculine, singular;own;This is my own book.;Questo è il mio proprio libro.;
+ingoiata;La pillola è stata {{c1::ingoiata}} con difficoltà.;verb, past participle, feminine, singular;swallowed;The pill was swallowed with difficulty.;La pillola è stata ingoiata con difficoltà.;
+passo;Faccio un {{c1::passo}} alla volta.;noun, masculine, singular;step;I take one step at a time.;Faccio un passo alla volta.;
+appena;{{c1::Appena}} arrivo, ti telefono.;adv;as soon as;As soon as I arrive, I'll call you.;Appena arrivo, ti telefono.;
+processo;Il {{c1::processo}} di produzione è complesso.;noun, masculine, singular;process;The production process is complex.;Il processo di produzione è complesso.;
+spiedo;Il pollo cuoce allo {{c1::spiedo}}.;noun, masculine, singular;spit;The chicken cooks on the spit.;Il pollo cuoce allo spiedo.;
+comprasse;Se {{c1::comprasse}} quella casa, sarebbe felice.;verb, 3rd person singular, congiuntivo imperfetto;bought;If he bought that house, he would be happy.;Se comprasse quella casa, sarebbe felice.;
+rido;{{c1::Rido}} sempre alle sue battute.;verb, 1st person singular, presente;laugh;I always laugh at his jokes.;Rido sempre alle sue battute.;
+taglia;Che {{c1::taglia}} porti?;noun, feminine, singular;size;What size do you wear?;Che taglia porti?;
+pista;La {{c1::pista}} di atletica è nuova.;noun, feminine, singular;track;The athletics track is new.;La pista di atletica è nuova.;
+armatore;L'{{c1::armatore}} ha molte navi.;noun, masculine, singular;shipowner;The shipowner has many ships.;L'armatore ha molte navi.;
+sprecata;Questa opportunità è stata {{c1::sprecata}}.;verb, past participle, feminine, singular;wasted;This opportunity was wasted.;Questa opportunità è stata sprecata.;
+bomba;La {{c1::bomba}} è esplosa.;noun, feminine, singular;bomb;The bomb exploded.;La bomba è esplosa.;
+frequentare;{{c1::Frequentare}} l'università è importante.;verb, infinitive;attend;Attending university is important.;Frequentare l'università è importante.;
+come lo sa?;{{c1::Come lo sa?}} che sono qui?;phrase;how does he know?;How does he know that I'm here?;Come lo sa? che sono qui?;
+reso;Ho {{c1::reso}} il libro alla biblioteca.;verb, past participle, masculine, singular;returned;I returned the book to the library.;Ho reso il libro alla biblioteca.;
+gareggiare;Vuole {{c1::gareggiare}} nella corsa.;verb, infinitive;compete;He wants to compete in the race.;Vuole gareggiare nella corsa.;
+rischiando;{{c1::Rischiando}} tutto, ha investito i suoi soldi.;verb, gerundio;risking;Risking everything, he invested his money.;Rischiando tutto, ha investito i suoi soldi.;
+lascia;{{c1::Lascia}} la porta aperta.;verb, 3rd person singular, presente;leave;Leave the door open.;Lascia la porta aperta.;
+goditi;{{c1::Goditi}} la vacanza!;verb, 2nd person singular, imperativo;enjoy;Enjoy your vacation!;Goditi la vacanza!;
+riassunto;Il {{c1::riassunto}} del libro è breve.;noun, masculine, singular;summary;The book summary is brief.;Il riassunto del libro è breve.;
+prova;Questa è una {{c1::prova}} difficile.;noun, feminine, singular;test;This is a difficult test.;Questa è una prova difficile.;
+spezzato;Il vetro è {{c1::spezzato}}.;verb, past participle, masculine, singular;broken;The glass is broken.;Il vetro è spezzato.;
+ancora;{{c1::Ancora}} non ho finito.;adv;still;I still haven't finished.;Ancora non ho finito.;
+crettino;Non essere un {{c1::crettino}}.;noun, masculine, singular;idiot;Don't be an idiot.;Non essere un crettino.;
+devo;{{c1::Devo}} studiare per l'esame.;verb, 1st person singular, presente;must;I must study for the exam.;Devo studiare per l'esame.;
+incontrare;Domani {{c1::incontrare}} i miei amici.;verb, infinitive;meet;Tomorrow I will meet my friends.;Domani incontrare i miei amici.;
+fico;Questo frutto è molto {{c1::fico}}.;adj, masculine, singular;cool;This fruit is very cool.;Questo frutto è molto fico.;
+navicelle;Le {{c1::navicelle}} spaziali sono costose.;noun, feminine, plural;spacecraft;Spacecraft are expensive.;Le navicelle spaziali sono costose.;
+fisso;Il prezzo è {{c1::fisso}}.;adj, masculine, singular;fixed;The price is fixed.;Il prezzo è fisso.;
+sballo;È stato un grande {{c1::sballo}}.;noun, masculine, singular;blast;It was a great blast.;È stato un grande sballo.;
+eppure;{{c1::Eppure}} non ha studiato.;conj;yet;Yet he didn't study.;Eppure non ha studiato.;
+mandato;Ho {{c1::mandato}} una lettera.;verb, past participle, masculine, singular;sent;I sent a letter.;Ho mandato una lettera.;
+scopi;I suoi {{c1::scopi}} sono chiari.;noun, masculine, plural;goals;His goals are clear.;I suoi scopi sono chiari.;
+tutta da sola;L'ha fatto {{c1::tutta da sola}}.;phrase;all by herself;She did it all by herself.;L'ha fatto tutta da sola.;
+fosse;Se {{c1::fosse}} più alto, giocherebbe a basket.;verb, 3rd person singular, congiuntivo imperfetto;were;If he were taller, he would play basketball.;Se fosse più alto, giocherebbe a basket.;
+tutto qui;È {{c1::tutto qui}}.;phrase;that's all;That's all.;È tutto qui.;
+allegria;La {{c1::allegria}} è contagiosa.;noun, feminine, singular;joy;Joy is contagious.;La allegria è contagiosa.;
+parente;Il mio {{c1::parente}} abita a Roma.;noun, masculine, singular;relative;My relative lives in Rome.;Il mio parente abita a Roma.;
+pedalare;{{c1::Pedalare}} fa bene alla salute.;verb, infinitive;pedal;Pedaling is good for your health.;Pedalare fa bene alla salute.;
+nipote;La mia {{c1::nipote}} ha cinque anni.;noun, feminine, singular;niece;My niece is five years old.;La mia nipote ha cinque anni.;
+cose e successo;{{c1::Cose e successo}} nella vita.;phrase;things and success;Things and success in life.;Cose e successo nella vita.;
+osceni;Quei gesti sono {{c1::osceni}}.;adj, masculine, plural;obscene;Those gestures are obscene.;Quei gesti sono osceni.;
+stronzo;Non essere uno {{c1::stronzo}}.;noun, masculine, singular;asshole;Don't be an asshole.;Non essere uno stronzo.;
+scordato;Ho {{c1::scordato}} le chiavi.;verb, past participle, masculine, singular;forgotten;I forgot the keys.;Ho scordato le chiavi.;
+lottavi;{{c1::Lottavi}} per i tuoi diritti.;verb, 2nd person singular, imperfetto;fought;You fought for your rights.;Lottavi per i tuoi diritti.;
+troppo;È {{c1::troppo}} tardi.;adv;too;It's too late.;È troppo tardi.;
+brava;Sei molto {{c1::brava}} in matematica.;adj, feminine, singular;good;You're very good at math.;Sei molto brava in matematica.;
+davanti;{{c1::Davanti}} alla casa c'è un giardino.;prep;in front of;In front of the house there's a garden.;Davanti alla casa c'è un giardino.;
+sorridevamo;{{c1::Sorridevamo}} guardando le foto.;verb, 1st person plural, imperfetto;we were smiling;We were smiling while looking at the photos.;Sorridevamo guardando le foto.;
+nittu;{{c1::Nittu}} è una parola dialettale.;noun, masculine, singular;night;Nittu is a dialectal word.;Nittu è una parola dialettale.;
+lutto;La famiglia è in {{c1::lutto}}.;noun, masculine, singular;mourning;The family is in mourning.;La famiglia è in lutto.;
+debosciata;È una persona {{c1::debosciata}}.;adj, feminine, singular;depraved;She's a depraved person.;È una persona debosciata.;
+vattene;{{c1::Vattene}} via!;verb, 2nd person singular, imperativo;go away;Go away!;Vattene via!;
+spaventare;Non {{c1::spaventare}} il bambino.;verb, infinitive;scare;Don't scare the child.;Non spaventare il bambino.;
+bugiarda;È una {{c1::bugiarda}}.;noun, feminine, singular;liar;She's a liar.;È una bugiarda.;
+stavamo;{{c1::Stavamo}} parlando quando è arrivato.;verb, 1st person plural, imperfetto;we were;We were talking when he arrived.;Stavamo parlando quando è arrivato.;
+amati;I bambini sono {{c1::amati}} dai genitori.;verb, past participle, masculine, plural;loved;Children are loved by their parents.;I bambini sono amati dai genitori.;
+somiglia;{{c1::Somiglia}} molto a sua madre.;verb, 3rd person singular, presente;resembles;He resembles his mother a lot.;Somiglia molto a sua madre.;
+ladro;Il {{c1::ladro}} è stato arrestato.;noun, masculine, singular;thief;The thief was arrested.;Il ladro è stato arrestato.;
+baglia;La {{c1::baglia}} è rotta.;noun, feminine, singular;bucket;The bucket is broken.;La baglia è rotta.;
+cacchio;{{c1::Cacchio}} che bello!;interj;damn;Damn, how beautiful!;Cacchio che bello!;
+ricordare;Non riesco a {{c1::ricordare}} il suo nome.;verb, infinitive;remember;I can't remember his name.;Non riesco a ricordare il suo nome.;
+consigli;I suoi {{c1::consigli}} sono sempre utili.;noun, masculine, plural;advice;His advice is always useful.;I suoi consigli sono sempre utili.;
+fermiamo;{{c1::Fermiamo}} qui per pranzo.;verb, 1st person plural, presente;let's stop;Let's stop here for lunch.;Fermiamo qui per pranzo.;
+entrambi;{{c1::Entrambi}} i bambini giocano.;pronoun, masculine, plural;both;Both children are playing.;Entrambi i bambini giocano.;
+subito;Vieni {{c1::subito}} qui!;adv;immediately;Come here immediately!;Vieni subito qui!;
+pomata;Metti la {{c1::pomata}} sulla ferita.;noun, feminine, singular;ointment;Put the ointment on the wound.;Metti la pomata sulla ferita.;
+spalle;Le mie {{c1::spalle}} fanno male.;noun, feminine, plural;shoulders;My shoulders hurt.;Le mie spalle fanno male.;
+la salute;{{c1::La salute}} è importante.;noun, feminine, singular;health;Health is important.;La salute è importante.;
+devi;{{c1::Devi}} studiare di più.;verb, 2nd person singular, presente;you must;You must study more.;Devi studiare di più.;
+equilibrio;Mantieni l'{{c1::equilibrio}}.;noun, masculine, singular;balance;Keep your balance.;Mantieni l'equilibrio.;
+salute;{{c1::Salute}} a tutti!;noun, feminine, singular;health;Cheers everyone!;Salute a tutti!;
+alcol;L'{{c1::alcol}} fa male.;noun, masculine, singular;alcohol;Alcohol is bad for you.;L'alcol fa male.;
+consigliare;Ti {{c1::consigliare}} di riposare.;verb, infinitive;advise;I advise you to rest.;Ti consigliare di riposare.;
+schermi;Gli {{c1::schermi}} sono troppo piccoli.;noun, masculine, plural;screens;The screens are too small.;Gli schermi sono troppo piccoli.;
+ospedale;Vado all'{{c1::ospedale}}.;noun, masculine, singular;hospital;I'm going to the hospital.;Vado all'ospedale.;
+pronto soccorso;Il {{c1::pronto soccorso}} è al primo piano.;noun, masculine, singular;emergency room;The emergency room is on the first floor.;Il pronto soccorso è al primo piano.;
+studio medico;Il {{c1::studio medico}} è chiuso.;noun, masculine, singular;medical practice;The medical practice is closed.;Il studio medico è chiuso.;
+ambulatorio;L'{{c1::ambulatorio}} apre alle nove.;noun, masculine, singular;clinic;The clinic opens at nine.;L'ambulatorio apre alle nove.;
+farmacia;La {{c1::farmacia}} è in centro.;noun, feminine, singular;pharmacy;The pharmacy is downtown.;La farmacia è in centro.;
+ricetta medica;Ho la {{c1::ricetta medica}}.;noun, feminine, singular;medical prescription;I have the medical prescription.;Ho la ricetta medica.;
+medicine;Le {{c1::medicine}} sono costose.;noun, feminine, plural;medicines;Medicines are expensive.;Le medicine sono costose.;
+farmaci;I {{c1::farmaci}} sono nel cassetto.;noun, masculine, plural;medications;The medications are in the drawer.;I farmaci sono nel cassetto.;
+prescrizione;La {{c1::prescrizione}} è scaduta.;noun, feminine, singular;prescription;The prescription has expired.;La prescrizione è scaduta.;
+piramide alimentare;La {{c1::piramide alimentare}} mostra i cibi sani.;noun, feminine, singular;food pyramid;The food pyramid shows healthy foods.;La piramide alimentare mostra i cibi sani.;
+solito;Come {{c1::solito}}, arriva tardi.;adj, masculine, singular;usual;As usual, he arrives late.;Come solito, arriva tardi.;
+salutari;I cibi {{c1::salutari}} sono importanti.;adj, masculine, plural;healthy;Healthy foods are important.;I cibi salutari sono importanti.;
+roba;Questa {{c1::roba}} non serve.;noun, feminine, singular;stuff;This stuff is useless.;Questa roba non serve.;
+fidanzato;Il mio {{c1::fidanzato}} è gentile.;noun, masculine, singular;boyfriend;My boyfriend is kind.;Il mio fidanzato è gentile.;
+soprattutto;{{c1::Soprattutto}} la matematica.;adv;especially;Especially mathematics.;Soprattutto la matematica.;
+per lo più;{{c1::Per lo più}} vado in bici.;phrase;mostly;I mostly go by bike.;Per lo più vado in bici.;
+comune;È un problema {{c1::comune}}.;adj, masculine, singular;common;It's a common problem.;È un problema comune.;
+almeno;{{c1::Almeno}} tre persone.;adv;at least;At least three people.;Almeno tre persone.;
+tradizioni;Le {{c1::tradizioni}} sono importanti.;noun, feminine, plural;traditions;Traditions are important.;Le tradizioni sono importanti.;
+malpasto;Il {{c1::malpasto}} è stato terribile.;noun, masculine, singular;bad meal;The bad meal was terrible.;Il malpasto è stato terribile.;
+prospettive;Le {{c1::prospettive}} sono buone.;noun, feminine, plural;prospects;The prospects are good.;Le prospettive sono buone.;
+vi chiedo;{{c1::Vi chiedo}} di aspettare.;phrase;I ask you;I ask you to wait.;Vi chiedo di aspettare.;
+per niente;Non mi piace {{c1::per niente}}.;phrase;not at all;I don't like it at all.;Non mi piace per niente.;
+mettere;{{c1::Mettere}} i libri sulla scrivania.;verb, infinitive;put;Put the books on the desk.;Mettere i libri sulla scrivania.;
+panna;La {{c1::panna}} è fresca.;noun, feminine, singular;cream;The cream is fresh.;La panna è fresca.;
+tradurre;Devo {{c1::tradurre}} questo testo.;verb, infinitive;translate;I need to translate this text.;Devo tradurre questo testo.;
+mescola;{{c1::Mescola}} gli ingredienti.;verb, 2nd person singular, imperativo;mix;Mix the ingredients.;Mescola gli ingredienti.;
+compra;{{c1::Compra}} il pane.;verb, 2nd person singular, imperativo;buy;Buy the bread.;Compra il pane.;
+taglia;Che {{c1::taglia}} porti?;noun, feminine, singular;size;What size do you wear?;Che taglia porti?;
+prendi;{{c1::Prendi}} le chiavi.;verb, 2nd person singular, imperativo;take;Take the keys.;Prendi le chiavi.;
+metti;{{c1::Metti}} il cappotto.;verb, 2nd person singular, imperativo;put on;Put on your coat.;Metti il cappotto.;
+arriviamo;{{c1::Arriviamo}} domani.;verb, 1st person plural, presente;we arrive;We arrive tomorrow.;Arriviamo domani.;
+viso;Il suo {{c1::viso}} è bello.;noun, masculine, singular;face;His face is beautiful.;Il suo viso è bello.;
+uguale;Sono {{c1::uguale}}.;adj, masculine, singular;equal;They are equal.;Sono uguale.;
+scherzo;È uno {{c1::scherzo}}.;noun, masculine, singular;joke;It's a joke.;È uno scherzo.;
+delitto;Il {{c1::delitto}} è grave.;noun, masculine, singular;crime;The crime is serious.;Il delitto è grave.;
+arrabbiato;Sono {{c1::arrabbiato}}.;adj, masculine, singular;angry;I'm angry.;Sono arrabbiato.;
+sarà;{{c1::Sarà}} una bella giornata.;verb, 3rd person singular, futuro;will be;It will be a beautiful day.;Sarà una bella giornata.;
+preoccuparti;Non {{c1::preoccuparti}}.;verb, infinitive;worry;Don't worry.;Non preoccuparti.;
+supposizione;È solo una {{c1::supposizione}}.;noun, feminine, singular;supposition;It's just a supposition.;È solo una supposizione.;
+esprimere;Devo {{c1::esprimere}} la mia opinione.;verb, infinitive;express;I need to express my opinion.;Devo esprimere la mia opinione.;
+incerto;Il risultato è {{c1::incerto}}.;adj, masculine, singular;uncertain;The result is uncertain.;Il risultato è incerto.;
+dubbio;Ho un {{c1::dubbio}}.;noun, masculine, singular;doubt;I have a doubt.;Ho un dubbio.;
+parare;Devo {{c1::parare}} il colpo.;verb, infinitive;parry;I need to parry the blow.;Devo parare il colpo.;
+capito;Ho {{c1::capito}} tutto.;verb, past participle, masculine, singular;understood;I understood everything.;Ho capito tutto.;
+spesso;Vado {{c1::spesso}} al cinema.;adv;often;I often go to the cinema.;Vado spesso al cinema.;
+sottocutaneo;L'iniezione è {{c1::sottocutaneo}}.;adj, masculine, singular;subcutaneous;The injection is subcutaneous.;L'iniezione è sottocutaneo.;
+pelle;La {{c1::pelle}} è sensibile.;noun, feminine, singular;skin;The skin is sensitive.;La pelle è sensibile.;
+collegato;Il computer è {{c1::collegato}}.;verb, past participle, masculine, singular;connected;The computer is connected.;Il computer è collegato.;
+corrente;La {{c1::corrente}} è forte.;noun, feminine, singular;current;The current is strong.;La corrente è forte.;
+scaricheremo;{{c1::Scaricheremo}} i file domani.;verb, 1st person plural, futuro;we will download;We will download the files tomorrow.;Scaricheremo i file domani.;
+chiavetta;Ho perso la {{c1::chiavetta}}.;noun, feminine, singular;USB stick;I lost the USB stick.;Ho perso la chiavetta.;
+gireremo;{{c1::Gireremo}} il film.;verb, 1st person plural, futuro;we will shoot;We will shoot the film.;Gireremo il film.;
+credo;{{c1::Credo}} che sia vero.;verb, 1st person singular, presente;I believe;I believe it's true.;Credo che sia vero.;
+pericolo;C'è {{c1::pericolo}}.;noun, masculine, singular;danger;There is danger.;C'è pericolo.;
+rabbatte;{{c1::Rabbatte}} il cappello.;verb, 2nd person singular, imperativo;pull down;Pull down your hat.;Rabbatte il cappello.;
+eravamo;{{c1::Eravamo}} in vacanza.;verb, 1st person plural, imperfetto;we were;We were on vacation.;Eravamo in vacanza.;
+accordo;Siamo d'{{c1::accordo}}.;noun, masculine, singular;agreement;We are in agreement.;Siamo d'accordo.;
+secondo;{{c1::Secondo}} me, hai ragione.;prep;according to;According to me, you're right.;Secondo me, hai ragione.;
+tolgono;{{c1::Tolgono}} i piatti.;verb, 3rd person plural, presente;they remove;They remove the dishes.;Tolgono i piatti.;
+fattori;I {{c1::fattori}} sono importanti.;noun, masculine, plural;factors;The factors are important.;I fattori sono importanti.;
+minoranze linguistiche;Le {{c1::minoranze linguistiche}} sono protette.;noun, feminine, plural;linguistic minorities;Linguistic minorities are protected.;Le minoranze linguistiche sono protette.;
+ceppo linguistico;Il {{c1::ceppo linguistico}} è antico.;noun, masculine, singular;language family;The language family is ancient.;Il ceppo linguistico è antico.;
+eredità;La {{c1::eredità}} è grande.;noun, feminine, singular;heritage;The heritage is great.;La eredità è grande.;
+eliminare;Devo {{c1::eliminare}} questo file.;verb, infinitive;eliminate;I need to eliminate this file.;Devo eliminare questo file.;
+cancellare;{{c1::Cancellare}} il testo.;verb, infinitive;delete;Delete the text.;Cancellare il testo.;
+diversi;Abbiamo {{c1::diversi}} libri.;adj, masculine, plural;several;We have several books.;Abbiamo diversi libri.;
+espetta;{{c1::Espetta}} un momento.;verb, 2nd person singular, imperativo;wait;Wait a moment.;Espetta un momento.;
+lingue di minoranza;Le {{c1::lingue di minoranza}} sono tutelate.;noun, feminine, plural;minority languages;Minority languages are protected.;Le lingue di minoranza sono tutelate.;
+linguaggio dei segni;Il {{c1::linguaggio dei segni}} è importante.;noun, masculine, singular;sign language;Sign language is important.;Il linguaggio dei segni è importante.;
+aggiungere;Devo {{c1::aggiungere}} il sale.;verb, infinitive;add;I need to add salt.;Devo aggiungere il sale.;
+ungherese;Parlo {{c1::ungherese}}.;adj, masculine, singular;Hungarian;I speak Hungarian.;Parlo ungherese.;
+contre;{{c1::Contre}} la parete.;prep;against;Against the wall.;Contre la parete.;
+istruzione;L'{{c1::istruzione}} è gratuita.;noun, feminine, singular;education;Education is free.;L'istruzione è gratuita.;
+riguarda;Questo {{c1::riguarda}} tutti.;verb, 3rd person singular, presente;concerns;This concerns everyone.;Questo riguarda tutti.;
+rivedremo;{{c1::Rivedremo}} il progetto.;verb, 1st person plural, futuro;we will review;We will review the project.;Rivedremo il progetto.;
+davvero;È {{c1::davvero}} bello.;adv;really;It's really beautiful.;È davvero bello.;
+ulivi e vigneti;Gli {{c1::ulivi e vigneti}} sono tipici.;noun, masculine, plural;olive trees and vineyards;Olive trees and vineyards are typical.;Gli ulivi e vigneti sono tipici.;
+rompigetto;Il {{c1::rompigetto}} è rotto.;noun, masculine, singular;faucet aerator;The faucet aerator is broken.;Il rompigetto è rotto.;
+arredamento;L'{{c1::arredamento}} è moderno.;noun, masculine, singular;furniture;The furniture is modern.;L'arredamento è moderno.;
+immobili;Gli {{c1::immobili}} sono costosi.;noun, masculine, plural;real estate;Real estate is expensive.;Gli immobili sono costosi.;
+cascina;La {{c1::cascina}} è antica.;noun, feminine, singular;farmhouse;The farmhouse is old.;La cascina è antica.;
+condominio;Vivo in un {{c1::condominio}}.;noun, masculine, singular;condominium;I live in a condominium.;Vivo in un condominio.;
+villetta a schiera;La {{c1::villetta a schiera}} è nuova.;noun, feminine, singular;townhouse;The townhouse is new.;La villetta a schiera è nuova.;
+palazzo;Il {{c1::palazzo}} è alto.;noun, masculine, singular;building;The building is tall.;Il palazzo è alto.;
+sogni;I {{c1::sogni}} sono belli.;noun, masculine, plural;dreams;Dreams are beautiful.;I sogni sono belli.;
+albero;L'{{c1::albero}} è grande.;noun, masculine, singular;tree;The tree is big.;L'albero è grande.;
+abbastanza;Sono {{c1::abbastanza}} stanco.;adv;quite;I'm quite tired.;Sono abbastanza stanco.;
+vicino;Abito {{c1::vicino}} alla scuola.;adv;near;I live near the school.;Abito vicino alla scuola.;
+scegliamo;{{c1::Scegliamo}} il ristorante.;verb, 1st person plural, presente;we choose;We choose the restaurant.;Scegliamo il ristorante.;
+tanto;{{c1::Tanto}} tempo fa.;adv;so long;So long ago.;Tanto tempo fa.;
+segreteria;La {{c1::segreteria}} è chiusa.;noun, feminine, singular;secretariat;The secretariat is closed.;La segreteria è chiusa.;
+segretaria;La {{c1::segretaria}} è efficiente.;noun, feminine, singular;secretary;The secretary is efficient.;La segretaria è efficiente.;
+macchina da scrivere;La {{c1::macchina da scrivere}} è vecchia.;noun, feminine, singular;typewriter;The typewriter is old.;La macchina da scrivere è vecchia.;
+registratore vocale;Il {{c1::registratore vocale}} funziona.;noun, masculine, singular;voice recorder;The voice recorder works.;Il registratore vocale funziona.;
+sarà;Lui {{c1::sarà}} qui domani.;verb, 3rd person singular, futuro;will be;He will be here tomorrow.;Lui sarà qui domani.;
+abbastanza;Sono {{c1::abbastanza}} stanco oggi.;adv;quite;I'm quite tired today.;Sono abbastanza stanco oggi.;
+accogliente;Questa casa è molto {{c1::accogliente}}.;adj, feminine, singular;welcoming;This house is very welcoming.;Questa casa è molto accogliente.;
+accogliere;Dobbiamo {{c1::accogliere}} i nuovi studenti.;verb, infinitive;welcome;We must welcome the new students.;Dobbiamo accogliere i nuovi studenti.;
+accordo;Siamo d'{{c1::accordo}} su questo punto.;noun, masculine, singular;agreement;We are in agreement on this point.;Siamo d'accordo su questo punto.;
+accorgere;Non mi sono {{c1::accorto}} dell'errore.;verb, past participle, masculine, singular;noticed;I didn't notice the mistake.;Non mi sono accorto dell'errore.;
+affascinante;È una persona molto {{c1::affascinante}}.;adj, feminine, singular;fascinating;She's a very fascinating person.;È una persona molto affascinante.;
+affiancare;Devo {{c1::affiancare}} il nuovo collega.;verb, infinitive;support;I need to support the new colleague.;Devo affiancare il nuovo collega.;
+affittare;Voglio {{c1::affittare}} un appartamento.;verb, infinitive;rent;I want to rent an apartment.;Voglio affittare un appartamento.;
+aggiudicare;Hanno {{c1::aggiudicato}} il contratto.;verb, past participle, masculine, plural;awarded;They awarded the contract.;Hanno aggiudicato il contratto.;
+aggiungere;Devo {{c1::aggiungere}} il sale alla pasta.;verb, infinitive;add;I need to add salt to the pasta.;Devo aggiungere il sale alla pasta.;
+albero;L'{{c1::albero}} è molto alto.;noun, masculine, singular;tree;The tree is very tall.;L'albero è molto alto.;
+alcol;L'{{c1::alcol}} fa male alla salute.;noun, masculine, singular;alcohol;Alcohol is bad for your health.;L'alcol fa male alla salute.;
+alcuno;Non ho {{c1::alcuno}} problema.;pronoun, masculine, singular;any;I don't have any problem.;Non ho alcuno problema.;
+alcuno;{{c1::Alcuno}} di voi conosce la risposta?;pronoun, masculine, singular;anyone;Does anyone of you know the answer?;Alcuno di voi conosce la risposta?;
+alimentare;La dieta {{c1::alimentare}} è importante.;adj, feminine, singular;dietary;The dietary diet is important.;La dieta alimentare è importante.;
+alla fine;{{c1::Alla fine}} del film.;phrase;at the end;At the end of the movie.;Alla fine del film.;
+allegro;Sono {{c1::allegro}} oggi.;adj, masculine, singular;cheerful;I'm cheerful today.;Sono allegro oggi.;
+allenamento;L'{{c1::allenamento}} è faticoso.;noun, masculine, singular;training;Training is tiring.;L'allenamento è faticoso.;
+allora;{{c1::Allora}}, cosa facciamo?;adv;then;Then, what do we do?;Allora, cosa facciamo?;
+almeno;{{c1::Almeno}} tre persone.;adv;at least;At least three people.;Almeno tre persone.;
+alto;Il palazzo è {{c1::alto}}.;adj, masculine, singular;tall;The building is tall.;Il palazzo è alto.;
+amare;Ti {{c1::amo}} molto.;verb, 1st person singular, presente;love;I love you very much.;Ti amo molto.;
+ambulatorio;L'{{c1::ambulatorio}} è al primo piano.;noun, masculine, singular;clinic;The clinic is on the first floor.;L'ambulatorio è al primo piano.;
+ammirare;{{c1::Ammiro}} il tuo coraggio.;verb, 1st person singular, presente;admire;I admire your courage.;Ammiro il tuo coraggio.;
+ampio;La stanza è {{c1::ampia}}.;adj, feminine, singular;spacious;The room is spacious.;La stanza è ampia.;
+anche;{{c1::Anche}} io voglio venire.;adv;also;I also want to come.;Anche io voglio venire.;
+ancora;{{c1::Ancora}} non ho finito.;adv;still;I still haven't finished.;Ancora non ho finito.;
+andare;Devo {{c1::andare}} al lavoro.;verb, infinitive;go;I need to go to work.;Devo andare al lavoro.;
+antico;Il castello è {{c1::antico}}.;adj, masculine, singular;ancient;The castle is ancient.;Il castello è antico.;
+apertura;L'{{c1::apertura}} del negozio è alle nove.;noun, feminine, singular;opening;The store opening is at nine.;L'apertura del negozio è alle nove.;
+appena;{{c1::Appena}} arrivo, ti telefono.;adv;as soon as;As soon as I arrive, I'll call you.;Appena arrivo, ti telefono.;
+armatore;L'{{c1::armatore}} ha molte navi.;noun, masculine, singular;shipowner;The shipowner has many ships.;L'armatore ha molte navi.;
+arrabbiato;Sono {{c1::arrabbiato}} con te.;adj, masculine, singular;angry;I'm angry with you.;Sono arrabbiato con te.;
+arrampicata;L'{{c1::arrampicata}} è pericolosa.;noun, feminine, singular;climbing;Climbing is dangerous.;L'arrampicata è pericolosa.;
+arredamento;L'{{c1::arredamento}} è moderno.;noun, masculine, singular;furniture;The furniture is modern.;L'arredamento è moderno.;
+arrivare;{{c1::Arrivo}} domani.;verb, 1st person singular, presente;arrive;I arrive tomorrow.;Arrivo domani.;
+aspettare;Devo {{c1::aspettare}} l'autobus.;verb, infinitive;wait;I need to wait for the bus.;Devo aspettare l'autobus.;
+attività;L'{{c1::attività}} fisica è importante.;noun, feminine, singular;activity;Physical activity is important.;L'attività fisica è importante.;
+attraverso;Cammino {{c1::attraverso}} il parco.;prep;through;I walk through the park.;Cammino attraverso il parco.;
+autunno;L'{{c1::autunno}} è la mia stagione preferita.;noun, masculine, singular;autumn;Autumn is my favorite season.;L'autunno è la mia stagione preferita.;
+bagno;Il {{c1::bagno}} è al primo piano.;noun, masculine, singular;bathroom;The bathroom is on the first floor.;Il bagno è al primo piano.;
+basso;Il tavolo è {{c1::basso}}.;adj, masculine, singular;low;The table is low.;Il tavolo è basso.;
+basta;{{c1::Basta}} parlare!;verb, 3rd person singular, presente;enough;Enough talking!;Basta parlare!;
+bellissimo;Il panorama è {{c1::bellissimo}}.;adj, masculine, singular;beautiful;The view is beautiful.;Il panorama è bellissimo.;
+bello;Il vestito è {{c1::bello}}.;adj, masculine, singular;beautiful;The dress is beautiful.;Il vestito è bello.;
+bisogno;Ho {{c1::bisogno}} di aiuto.;noun, masculine, singular;need;I need help.;Ho bisogno di aiuto.;
+bomba;La {{c1::bomba}} è esplosa.;noun, feminine, singular;bomb;The bomb exploded.;La bomba è esplosa.;
+bosco;Il {{c1::bosco}} è fitto.;noun, masculine, singular;forest;The forest is dense.;Il bosco è fitto.;
+braccio;Mi fa male il {{c1::braccio}}.;noun, masculine, singular;arm;My arm hurts.;Mi fa male il braccio.;
+brutto;Il tempo è {{c1::brutto}}.;adj, masculine, singular;bad;The weather is bad.;Il tempo è brutto.;
+bussare;Devo {{c1::bussare}} alla porta.;verb, infinitive;knock;I need to knock on the door.;Devo bussare alla porta.;
+c'è;{{c1::C'è}} un problema.;phrase;there is;There is a problem.;C'è un problema.;
+cadere;Stai attento a non {{c1::cadere}}.;verb, infinitive;fall;Be careful not to fall.;Stai attento a non cadere.;
+calcio;Il {{c1::calcio}} è uno sport.;noun, masculine, singular;soccer;Soccer is a sport.;Il calcio è uno sport.;
+camminare;Mi piace {{c1::camminare}}.;verb, infinitive;walk;I like to walk.;Mi piace camminare.;
+camminata;La {{c1::camminata}} è stata lunga.;noun, feminine, singular;walk;The walk was long.;La camminata è stata lunga.;
+cancellare;Devo {{c1::cancellare}} questo file.;verb, infinitive;delete;I need to delete this file.;Devo cancellare questo file.;
+cantina;La {{c1::cantina}} è nel seminterrato.;noun, feminine, singular;cellar;The cellar is in the basement.;La cantina è nel seminterrato.;
+capire;Non {{c1::capisco}}.;verb, 1st person singular, presente;understand;I don't understand.;Non capisco.;
+capo;Il {{c1::capo}} è severo.;noun, masculine, singular;boss;The boss is strict.;Il capo è severo.;
+capottare;La barca può {{c1::capottare}}.;verb, infinitive;capsize;The boat can capsize.;La barca può capottare.;
+cascina;La {{c1::cascina}} è in campagna.;noun, feminine, singular;farmhouse;The farmhouse is in the countryside.;La cascina è in campagna.;
+catena;La {{c1::catena}} è d'oro.;noun, feminine, singular;chain;The chain is gold.;La catena è d'oro.;
+catena montuosa;La {{c1::catena montuosa}} è imponente.;noun, feminine, singular;mountain range;The mountain range is impressive.;La catena montuosa è imponente.;
+cattivo;Il bambino è {{c1::cattivo}}.;adj, masculine, singular;bad;The child is bad.;Il bambino è cattivo.;
+centro storico;Il {{c1::centro storico}} è antico.;noun, masculine, singular;historic center;The historic center is old.;Il centro storico è antico.;
+ceppo;Il {{c1::ceppo}} è di quercia.;noun, masculine, singular;log;The log is oak.;Il ceppo è di quercia.;
+chiavetta;Ho perso la {{c1::chiavetta}}.;noun, feminine, singular;USB stick;I lost the USB stick.;Ho perso la chiavetta.;
+chiedere;Devo {{c1::chiedere}} aiuto.;verb, infinitive;ask;I need to ask for help.;Devo chiedere aiuto.;
+ciao;{{c1::Ciao}}, come stai?;interj;hello;Hello, how are you?;Ciao, come stai?;
+cima;La {{c1::cima}} della montagna.;noun, feminine, singular;peak;The peak of the mountain.;La cima della montagna.;
+cioè;{{c1::Cioè}}, non capisco.;adv;that is;That is, I don't understand.;Cioè, non capisco.;
+cittadinanza;La {{c1::cittadinanza}} italiana.;noun, feminine, singular;citizenship;Italian citizenship.;La cittadinanza italiana.;
+colla;La {{c1::colla}} non funziona.;noun, feminine, singular;glue;The glue doesn't work.;La colla non funziona.;
+collegare;Devo {{c1::collegare}} i cavi.;verb, infinitive;connect;I need to connect the cables.;Devo collegare i cavi.;
+collina;La {{c1::collina}} è verde.;noun, feminine, singular;hill;The hill is green.;La collina è verde.;
+collo;Mi fa male il {{c1::collo}}.;noun, masculine, singular;neck;My neck hurts.;Mi fa male il collo.;
+colorato;Il quadro è {{c1::colorato}}.;adj, masculine, singular;colorful;The painting is colorful.;Il quadro è colorato.;
+combattere;Devo {{c1::combattere}} per i miei diritti.;verb, infinitive;fight;I need to fight for my rights.;Devo combattere per i miei diritti.;
+come;{{c1::Come}} stai?;adv;how;How are you?;Come stai?;
+cominciare;{{c1::Comincio}} domani.;verb, 1st person singular, presente;begin;I begin tomorrow.;Comincio domani.;
+comprare;Devo {{c1::comprare}} il pane.;verb, infinitive;buy;I need to buy bread.;Devo comprare il pane.;
+comune;È un problema {{c1::comune}}.;adj, masculine, singular;common;It's a common problem.;È un problema comune.;
+condominio;Vivo in un {{c1::condominio}}.;noun, masculine, singular;condominium;I live in a condominium.;Vivo in un condominio.;
+conquistare;Vuole {{c1::conquistare}} il mondo.;verb, infinitive;conquer;He wants to conquer the world.;Vuole conquistare il mondo.;
+consigliare;Ti {{c1::consiglio}} di studiare.;verb, infinitive;advise;I advise you to study.;Ti consiglio di studiare.;
+consiglio;Il tuo {{c1::consiglio}} è utile.;noun, masculine, singular;advice;Your advice is useful.;Il tuo consiglio è utile.;
+contro;Sono {{c1::contro}} questa idea.;prep;against;I'm against this idea.;Sono contro questa idea.;
+conversazione;La {{c1::conversazione}} è interessante.;noun, feminine, singular;conversation;The conversation is interesting.;La conversazione è interessante.;
+coprire;Devo {{c1::coprire}} la testa.;verb, infinitive;cover;I need to cover my head.;Devo coprire la testa.;
+corrente;La {{c1::corrente}} è forte.;noun, feminine, singular;current;The current is strong.;La corrente è forte.;
+costituire;Questo può {{c1::costituire}} un problema.;verb, infinitive;constitute;This can constitute a problem.;Questo può costituire un problema.;
+credenza;La {{c1::credenza}} è piena.;noun, feminine, singular;sideboard;The sideboard is full.;La credenza è piena.;
+credere;{{c1::Credo}} in te.;verb, 1st person singular, presente;believe;I believe in you.;Credo in te.;
+crescere;I bambini {{c1::crescono}} velocemente.;verb, 3rd person plural, presente;grow;Children grow quickly.;I bambini crescono velocemente.;
+cretino;Sei un {{c1::cretino}}.;adj, masculine, singular;idiot;You're an idiot.;Sei un cretino.;
+cretino;Il {{c1::cretino}} ha rotto tutto.;noun, masculine, singular;idiot;The idiot broke everything.;Il cretino ha rotto tutto.;
+cui;La persona di {{c1::cui}} parlo.;pronoun, relative;whom;The person of whom I speak.;La persona di cui parlo.;
+dammelo;{{c1::Dammelo}} subito!;verb, 2nd person singular, imperativo;give it to me;Give it to me right now!;Dammelo subito!;
+dare;Devo {{c1::dare}} una risposta.;verb, infinitive;give;I need to give an answer.;Devo dare una risposta.;
+davvero;È {{c1::davvero}} bello.;adv;really;It's really beautiful.;È davvero bello.;
+degli;Ho parlato {{c1::degli}} amici.;prep, masculine, plural;of the;I spoke of the friends.;Ho parlato degli amici.;
+delitto;Il {{c1::delitto}} è grave.;noun, masculine, singular;crime;The crime is serious.;Il delitto è grave.;
+delizioso;Il cibo è {{c1::delizioso}}.;adj, masculine, singular;delicious;The food is delicious.;Il cibo è delizioso.;
+dimmi;{{c1::Dimmi}} la verità.;verb, 2nd person singular, imperativo;tell me;Tell me the truth.;Dimmi la verità.;
+dio;{{c1::Dio}} è buono.;noun, masculine, singular;God;God is good.;Dio è buono.;
+dire;Devo {{c1::dire}} qualcosa.;verb, infinitive;say;I need to say something.;Devo dire qualcosa.;
+diventare;Vuole {{c1::diventare}} medico.;verb, infinitive;become;He wants to become a doctor.;Vuole diventare medico.;
+diverso;È {{c1::diverso}} da me.;adj, masculine, singular;different;He's different from me.;È diverso da me.;
+divertente;Il film è {{c1::divertente}}.;adj, masculine, singular;funny;The movie is funny.;Il film è divertente.;
+dolce;Il gelato è {{c1::dolce}}.;adj, masculine, singular;sweet;The ice cream is sweet.;Il gelato è dolce.;
+dopo;{{c1::Dopo}} cena andiamo al cinema.;prep;after;After dinner we go to the cinema.;Dopo cena andiamo al cinema.;
+dovere;Devo {{c1::dovere}} studiare.;verb, infinitive;must;I must study.;Devo dovere studiare.;
+dubbio;Ho un {{c1::dubbio}}.;noun, masculine, singular;doubt;I have a doubt.;Ho un dubbio.;
+due giorni fa;{{c1::Due giorni fa}} ero a Roma.;phrase;two days ago;Two days ago I was in Rome.;Due giorni fa ero a Roma.;
+e;Io {{c1::e}} tu siamo amici.;conj;and;You and I are friends.;Io e tu siamo amici.;
+eliminare;Devo {{c1::eliminare}} questo file.;verb, infinitive;eliminate;I need to eliminate this file.;Devo eliminare questo file.;
+emozionante;Il viaggio è {{c1::emozionante}}.;adj, masculine, singular;exciting;The trip is exciting.;Il viaggio è emozionante.;
+entrambi;{{c1::Entrambi}} i bambini giocano.;pronoun, masculine, plural;both;Both children are playing.;Entrambi i bambini giocano.;
+equilibrio;Mantieni l'{{c1::equilibrio}}.;noun, masculine, singular;balance;Keep your balance.;Mantieni l'equilibrio.;
+era;{{c1::Era}} una bella giornata.;verb, 3rd person singular, imperfetto;was;It was a beautiful day.;Era una bella giornata.;
+eredità;L'{{c1::eredità}} è grande.;noun, feminine, singular;heritage;The heritage is great.;L'eredità è grande.;
+eroe;L'{{c1::eroe}} ha salvato tutti.;noun, masculine, singular;hero;The hero saved everyone.;L'eroe ha salvato tutti.;
+esercitare;Devo {{c1::esercitare}} il diritto.;verb, infinitive;exercise;I need to exercise the right.;Devo esercitare il diritto.;
+esercizio;L'{{c1::esercizio}} è difficile.;noun, masculine, singular;exercise;The exercise is difficult.;L'esercizio è difficile.;
+esprimere;Devo {{c1::esprimere}} la mia opinione.;verb, infinitive;express;I need to express my opinion.;Devo esprimere la mia opinione.;
+esteso;Il territorio è {{c1::esteso}}.;adj, masculine, singular;extensive;The territory is extensive.;Il territorio è esteso.;
+estivo;Il clima {{c1::estivo}} è caldo.;adj, masculine, singular;summer;The summer climate is hot.;Il clima estivo è caldo.;
+faccia;La sua {{c1::faccia}} è bella.;noun, feminine, singular;face;Her face is beautiful.;La sua faccia è bella.;
+famoso;È un attore {{c1::famoso}}.;adj, masculine, singular;famous;He's a famous actor.;È un attore famoso.;
+fare;Devo {{c1::fare}} i compiti.;verb, infinitive;do;I need to do homework.;Devo fare i compiti.;
+farmacia;La {{c1::farmacia}} è chiusa.;noun, feminine, singular;pharmacy;The pharmacy is closed.;La farmacia è chiusa.;
+fattore;Il {{c1::fattore}} è importante.;noun, masculine, singular;factor;The factor is important.;Il fattore è importante.;
+fermare;Devo {{c1::fermare}} la macchina.;verb, infinitive;stop;I need to stop the car.;Devo fermare la macchina.;
+fermata;La {{c1::fermata}} è qui.;noun, feminine, singular;stop;The stop is here.;La fermata è qui.;
+fermo;Il treno è {{c1::fermo}}.;adj, masculine, singular;stopped;The train is stopped.;Il treno è fermo.;
+fidanzato;Il mio {{c1::fidanzato}} è gentile.;noun, masculine, singular;boyfriend;My boyfriend is kind.;Il mio fidanzato è gentile.;
+fiume;Il {{c1::fiume}} è profondo.;noun, masculine, singular;river;The river is deep.;Il fiume è profondo.;
+foresta;La {{c1::foresta}} è fitta.;noun, feminine, singular;forest;The forest is dense.;La foresta è fitta.;
+forte;Il caffè è {{c1::forte}}.;adj, masculine, singular;strong;The coffee is strong.;Il caffè è forte.;
+fotografare;Mi piace {{c1::fotografare}}.;verb, infinitive;photograph;I like to photograph.;Mi piace fotografare.;
+freddo;Fa {{c1::freddo}} oggi.;adj, masculine, singular;cold;It's cold today.;Fa freddo oggi.;
+frequentare;{{c1::Frequentare}} l'università.;verb, infinitive;attend;Attend university.;Frequentare l'università.;
+fresco;L'aria è {{c1::fresca}}.;adj, feminine, singular;fresh;The air is fresh.;L'aria è fresca.;
+fretta;Ho {{c1::fretta}}.;noun, feminine, singular;hurry;I'm in a hurry.;Ho fretta.;
+gareggiare;Vuole {{c1::gareggiare}} nella corsa.;verb, infinitive;compete;He wants to compete in the race.;Vuole gareggiare nella corsa.;
+gente;La {{c1::gente}} è gentile.;noun, feminine, singular;people;People are kind.;La gente è gentile.;
+già;Ho {{c1::già}} mangiato.;adv;already;I already ate.;Ho già mangiato.;
+girare;Devo {{c1::girare}} a destra.;verb, infinitive;turn;I need to turn right.;Devo girare a destra.;
+gli;{{c1::Gli}} piace il gelato.;pronoun, masculine, singular;to him;He likes ice cream.;Gli piace il gelato.;
+glielo;{{c1::Glielo}} ho detto.;pronoun, masculine, singular;it to him;I told him.;Glielo ho detto.;
+godere;Mi piace {{c1::godere}} della vita.;verb, infinitive;enjoy;I like to enjoy life.;Mi piace godere della vita.;
+grande;La casa è {{c1::grande}}.;adj, feminine, singular;big;The house is big.;La casa è grande.;
+grazie;{{c1::Grazie}} per l'aiuto.;interj;thank you;Thank you for the help.;Grazie per l'aiuto.;
+gridare;Non {{c1::gridare}}!;verb, infinitive;shout;Don't shout!;Non gridare!;
+gusto;Il {{c1::gusto}} è buono.;noun, masculine, singular;taste;The taste is good.;Il gusto è buono.;
+hall;L'{{c1::hall}} dell'hotel è grande.;noun, feminine, singular;lobby;The hotel lobby is big.;L'hall dell'hotel è grande.;
+ho capito;{{c1::Ho capito}} tutto.;phrase;I understood;I understood everything.;Ho capito tutto.;
+ho collegato;{{c1::Ho collegato}} il computer.;phrase;I connected;I connected the computer.;Ho collegato il computer.;
+ieri;{{c1::Ieri}} ero a Milano.;adv;yesterday;Yesterday I was in Milan.;Ieri ero a Milano.;
+impazzire;Sto per {{c1::impazzire}}.;verb, infinitive;go crazy;I'm about to go crazy.;Sto per impazzire.;
+importante;È {{c1::importante}} studiare.;adj, masculine, singular;important;It's important to study.;È importante studiare.;
+incerto;Il risultato è {{c1::incerto}}.;adj, masculine, singular;uncertain;The result is uncertain.;Il risultato è incerto.;
+inchiodare;Devo {{c1::inchiodare}} il quadro.;verb, infinitive;nail;I need to nail the picture.;Devo inchiodare il quadro.;
+incollare;Devo {{c1::incollare}} i pezzi.;verb, infinitive;glue;I need to glue the pieces.;Devo incollare i pezzi.;
+incontrare;Domani {{c1::incontro}} i miei amici.;verb, 1st person singular, presente;meet;Tomorrow I meet my friends.;Domani incontro i miei amici.;
+indimenticabile;È un'esperienza {{c1::indimenticabile}}.;adj, feminine, singular;unforgettable;It's an unforgettable experience.;È un'esperienza indimenticabile.;
+infine;{{c1::Infine}}, tutto è andato bene.;adv;finally;Finally, everything went well.;Infine, tutto è andato bene.;
+ingessato;Ho il braccio {{c1::ingessato}}.;adj, masculine, singular;in a cast;I have my arm in a cast.;Ho il braccio ingessato.;
+ingolare;Devo {{c1::ingolare}} la pillola.;verb, infinitive;swallow;I need to swallow the pill.;Devo ingolare la pillola.;
+innevato;Il monte è {{c1::innevato}}.;adj, masculine, singular;snow-covered;The mountain is snow-covered.;Il monte è innevato.;
+inoltre;{{c1::Inoltre}}, è economico.;adv;moreover;Moreover, it's cheap.;Inoltre, è economico.;
+insegnare;Mi piace {{c1::insegnare}}.;verb, infinitive;teach;I like to teach.;Mi piace insegnare.;
+interessante;Il libro è {{c1::interessante}}.;adj, masculine, singular;interesting;The book is interesting.;Il libro è interessante.;
+invece;{{c1::Invece}} di andare, resto.;adv;instead;Instead of going, I stay.;Invece di andare, resto.;
+inverno;L'{{c1::inverno}} è freddo.;noun, masculine, singular;winter;Winter is cold.;L'inverno è freddo.;
+isola;L'{{c1::isola}} è piccola.;noun, feminine, singular;island;The island is small.;L'isola è piccola.;
+istruzione;L'{{c1::istruzione}} è gratuita.;noun, feminine, singular;education;Education is free.;L'istruzione è gratuita.;
+l'altro ieri;{{c1::L'altro ieri}} ero a Roma.;phrase;the day before yesterday;The day before yesterday I was in Rome.;L'altro ieri ero a Roma.;
+la settimana scorsa;{{c1::La settimana scorsa}} ho lavorato molto.;phrase;last week;Last week I worked a lot.;La settimana scorsa ho lavorato molto.;
+ladro;Il {{c1::ladro}} è stato arrestato.;noun, masculine, singular;thief;The thief was arrested.;Il ladro è stato arrestato.;
+laico;È uno stato {{c1::laico}}.;adj, masculine, singular;secular;It's a secular state.;È uno stato laico.;
+largo;La strada è {{c1::larga}}.;adj, feminine, singular;wide;The street is wide.;La strada è larga.;
+lasciare;Devo {{c1::lasciare}} le chiavi.;verb, infinitive;leave;I need to leave the keys.;Devo lasciare le chiavi.;
+le Alpi;{{c1::Le Alpi}} sono alte.;noun, feminine, plural;the Alps;The Alps are tall.;Le Alpi sono alte.;
+le Dolomiti;{{c1::Le Dolomiti}} sono belle.;noun, feminine, plural;the Dolomites;The Dolomites are beautiful.;Le Dolomiti sono belle.;
+lingua;La {{c1::lingua}} italiana è bella.;noun, feminine, singular;language;The Italian language is beautiful.;La lingua italiana è bella.;
+linguaggio;Il {{c1::linguaggio}} dei segni.;noun, masculine, singular;language;Sign language.;Il linguaggio dei segni.;
+lirico;È un poeta {{c1::lirico}}.;adj, masculine, singular;lyric;He's a lyric poet.;È un poeta lirico.;
+locanda;La {{c1::locanda}} è accogliente.;noun, feminine, singular;inn;The inn is welcoming.;La locanda è accogliente.;
+lontano da;Sono {{c1::lontano da}} casa.;phrase;far from;I'm far from home.;Sono lontano da casa.;
+lotta;La {{c1::lotta}} è dura.;noun, feminine, singular;fight;The fight is hard.;La lotta è dura.;
+lottare;Devo {{c1::lottare}} per i miei diritti.;verb, infinitive;fight;I need to fight for my rights.;Devo lottare per i miei diritti.;
+luogo;Questo è il {{c1::luogo}} giusto.;noun, masculine, singular;place;This is the right place.;Questo è il luogo giusto.;
+ma;{{c1::Ma}} non è vero.;conj;but;But it's not true.;Ma non è vero.;
+mai;Non {{c1::mai}} più.;adv;never;Never again.;Non mai più.;
+manico;Il {{c1::manico}} della pentola.;noun, masculine, singular;handle;The pot handle.;Il manico della pentola.;
+mattino;Buon {{c1::mattino}}!;noun, masculine, singular;morning;Good morning!;Buon mattino!;
+mentre;{{c1::Mentre}} mangio, leggo.;conj;while;While I eat, I read.;Mentre mangio, leggo.;
+meraviglioso;Il panorama è {{c1::meraviglioso}}.;adj, masculine, singular;wonderful;The view is wonderful.;Il panorama è meraviglioso.;
+mescolare;Devo {{c1::mescolare}} gli ingredienti.;verb, infinitive;mix;I need to mix the ingredients.;Devo mescolare gli ingredienti.;
+meta;La {{c1::meta}} è lontana.;noun, feminine, singular;destination;The destination is far.;La meta è lontana.;
+metà;{{c1::Metà}} del lavoro è fatto.;noun, feminine, singular;half;Half the work is done.;Metà del lavoro è fatto.;
+mettere;Devo {{c1::mettere}} i libri.;verb, infinitive;put;I need to put the books.;Devo mettere i libri.;
+mezzo;Il {{c1::mezzo}} di trasporto.;noun, masculine, singular;means;The means of transport.;Il mezzo di trasporto.;
+minoranza;La {{c1::minoranza}} ha diritti.;noun, feminine, singular;minority;The minority has rights.;La minoranza ha diritti.;
+mite;Il clima è {{c1::mite}}.;adj, masculine, singular;mild;The climate is mild.;Il clima è mite.;
+moderno;L'edificio è {{c1::moderno}}.;adj, masculine, singular;modern;The building is modern.;L'edificio è moderno.;
+montagne;Le {{c1::montagne}} sono alte.;noun, feminine, plural;mountains;The mountains are tall.;Le montagne sono alte.;
+montuoso;Il territorio è {{c1::montuoso}}.;adj, masculine, singular;mountainous;The territory is mountainous.;Il territorio è montuoso.;
+naturale;È {{c1::naturale}}.;adj, masculine, singular;natural;It's natural.;È naturale.;
+negli;{{c1::Negli}} ultimi anni.;prep, masculine, plural;in the;In the last years.;Negli ultimi anni.;
+nei;{{c1::Nei}} giorni feriali.;prep, masculine, plural;in the;On weekdays.;Nei giorni feriali.;
+nel;{{c1::Nel}} parco.;prep, masculine, singular;in the;In the park.;Nel parco.;
+nell';{{c1::Nell'}} ospedale.;prep, masculine, singular;in the;In the hospital.;Nell' ospedale.;
+nella;{{c1::Nella}} casa.;prep, feminine, singular;in the;In the house.;Nella casa.;
+nelle;{{c1::Nelle}} scuole.;prep, feminine, plural;in the;In the schools.;Nelle scuole.;
+nello;{{c1::Nello}} studio.;prep, masculine, singular;in the;In the study.;Nello studio.;
+neve;La {{c1::neve}} è bianca.;noun, feminine, singular;snow;The snow is white.;La neve è bianca.;
+niente;Non ho {{c1::niente}}.;pronoun, masculine, singular;nothing;I have nothing.;Non ho niente.;
+noi scaricheremo;{{c1::Noi scaricheremo}} i file.;phrase;we will download;We will download the files.;Noi scaricheremo i file.;
+nostro;È il {{c1::nostro}} libro.;adj, masculine, singular;our;It's our book.;È il nostro libro.;
+nuoto;Il {{c1::nuoto}} è uno sport.;noun, masculine, singular;swimming;Swimming is a sport.;Il nuoto è uno sport.;
+nuvola;La {{c1::nuvola}} è grigia.;noun, feminine, singular;cloud;The cloud is gray.;La nuvola è grigia.;
+obbligare;Devo {{c1::obbligare}} gli studenti.;verb, infinitive;oblige;I need to oblige the students.;Devo obbligare gli studenti.;
+obbligato;Sono {{c1::obbligato}} a venire.;adj, masculine, singular;obliged;I'm obliged to come.;Sono obbligato a venire.;
+occidentale;La cultura {{c1::occidentale}}.;adj, feminine, singular;western;Western culture.;La cultura occidentale.;
+occidente;L'{{c1::occidente}} è ricco.;noun, masculine, singular;west;The west is rich.;L'occidente è ricco.;
+ospedale;L'{{c1::ospedale}} è grande.;noun, masculine, singular;hospital;The hospital is big.;L'ospedale è grande.;
+ossia;{{c1::Ossia}}, in altre parole.;conj;that is;That is, in other words.;Ossia, in altre parole.;
+ottenere;Vuole {{c1::ottenere}} il permesso.;verb, infinitive;obtain;He wants to obtain permission.;Vuole ottenere il permesso.;
+paesaggio;Il {{c1::paesaggio}} è bello.;noun, masculine, singular;landscape;The landscape is beautiful.;Il paesaggio è bello.;
+palazzo;Il {{c1::palazzo}} è antico.;noun, masculine, singular;palace;The palace is old.;Il palazzo è antico.;
+palestra;La {{c1::palestra}} è aperta.;noun, feminine, singular;gym;The gym is open.;La palestra è aperta.;
+pallacanestro;Il {{c1::pallacanestro}} è divertente.;noun, masculine, singular;basketball;Basketball is fun.;Il pallacanestro è divertente.;
+panna;La {{c1::panna}} è fresca.;noun, feminine, singular;cream;The cream is fresh.;La panna è fresca.;
+parare;Devo {{c1::parare}} il colpo.;verb, infinitive;parry;I need to parry the blow.;Devo parare il colpo.;
+passare il tempo;Mi piace {{c1::passare il tempo}} con gli amici.;phrase;spend time;I like to spend time with friends.;Mi piace passare il tempo con gli amici.;
+passo;Faccio un {{c1::passo}} alla volta.;noun, masculine, singular;step;I take one step at a time.;Faccio un passo alla volta.;
+pasto;Il {{c1::pasto}} è pronto.;noun, masculine, singular;meal;The meal is ready.;Il pasto è pronto.;
+pattinaggio;Il {{c1::pattinaggio}} è difficile.;noun, masculine, singular;skating;Skating is difficult.;Il pattinaggio è difficile.;
+pavimento;Il {{c1::pavimento}} è pulito.;noun, masculine, singular;floor;The floor is clean.;Il pavimento è pulito.;
+pazzo;Sei {{c1::pazzo}}!;adj, masculine, singular;crazy;You're crazy!;Sei pazzo!;
+peggiore;È il {{c1::peggiore}}.;adj, masculine, singular;worst;It's the worst.;È il peggiore.;
+pelle;La {{c1::pelle}} è sensibile.;noun, feminine, singular;skin;The skin is sensitive.;La pelle è sensibile.;
+pendenza;La {{c1::pendenza}} è ripida.;noun, feminine, singular;slope;The slope is steep.;La pendenza è ripida.;
+per lo più;{{c1::Per lo più}} vado in bici.;phrase;mostly;I mostly go by bike.;Per lo più vado in bici.;
+perché;{{c1::Perché}} non vieni?;conj;because;Why don't you come?;Perché non vieni?;
+percorso;Il {{c1::percorso}} è lungo.;noun, masculine, singular;path;The path is long.;Il percorso è lungo.;
+pericolo;C'è {{c1::pericolo}}.;noun, masculine, singular;danger;There is danger.;C'è pericolo.;
+però;{{c1::Però}} è difficile.;conj;however;However, it's difficult.;Però è difficile.;
+pianeggiante;Il terreno è {{c1::pianeggiante}}.;adj, masculine, singular;flat;The terrain is flat.;Il terreno è pianeggiante.;
+piantina;La {{c1::piantina}} è piccola.;noun, feminine, singular;small plant;The small plant is little.;La piantina è piccola.;
+pianura;La {{c1::pianura}} è vasta.;noun, feminine, singular;plain;The plain is vast.;La pianura è vasta.;
+piazza;La {{c1::piazza}} è grande.;noun, feminine, singular;square;The square is big.;La piazza è grande.;
+piccolo;Il bambino è {{c1::piccolo}}.;adj, masculine, singular;small;The child is small.;Il bambino è piccolo.;
+piena;La bottiglia è {{c1::piena}}.;adj, feminine, singular;full;The bottle is full.;La bottiglia è piena.;
+pigro;Sei {{c1::pigro}}.;adj, masculine, singular;lazy;You're lazy.;Sei pigro.;
+pioggia;La {{c1::pioggia}} è forte.;noun, feminine, singular;rain;The rain is heavy.;La pioggia è forte.;
+piovere;{{c1::Piove}} molto.;verb, 3rd person singular, presente;rain;It rains a lot.;Piove molto.;
+piramide alimentare;La {{c1::piramide alimentare}} mostra i cibi.;noun, feminine, singular;food pyramid;The food pyramid shows foods.;La piramide alimentare mostra i cibi.;
+pista;La {{c1::pista}} di atletica.;noun, feminine, singular;track;The athletics track.;La pista di atletica.;
+pittoresco;Il villaggio è {{c1::pittoresco}}.;adj, masculine, singular;picturesque;The village is picturesque.;Il villaggio è pittoresco.;
+piuttosto;È {{c1::piuttosto}} difficile.;adv;rather;It's rather difficult.;È piuttosto difficile.;
+poi;{{c1::Poi}} andiamo a casa.;adv;then;Then we go home.;Poi andiamo a casa.;
+pomata;Metti la {{c1::pomata}} sulla ferita.;noun, feminine, singular;ointment;Put the ointment on the wound.;Metti la pomata sulla ferita.;
+portare;Devo {{c1::portare}} la borsa.;verb, infinitive;carry;I need to carry the bag.;Devo portare la borsa.;
+potere;Non {{c1::posso}} venire.;verb, 1st person singular, presente;can;I can't come.;Non posso venire.;
+prendere;Devo {{c1::prendere}} il treno.;verb, infinitive;take;I need to take the train.;Devo prendere il treno.;
+preoccupare;Non {{c1::preoccupare}}.;verb, infinitive;worry;Don't worry.;Non preoccupare.;
+preoccuparti;Non {{c1::preoccuparti}}.;verb, infinitive;worry;Don't worry.;Non preoccuparti.;
+prescrizione;La {{c1::prescrizione}} è scaduta.;noun, feminine, singular;prescription;The prescription has expired.;La prescrizione è scaduta.;
+preso;Ho {{c1::preso}} il libro.;verb, past participle, masculine, singular;taken;I took the book.;Ho preso il libro.;
+prima;{{c1::Prima}} di tutto.;adv;first;First of all.;Prima di tutto.;
+primato;Ha stabilito un {{c1::primato}}.;noun, masculine, singular;record;He set a record.;Ha stabilito un primato.;
+primavera;La {{c1::primavera}} è bella.;noun, feminine, singular;spring;Spring is beautiful.;La primavera è bella.;
+processo;Il {{c1::processo}} è lungo.;noun, masculine, singular;process;The process is long.;Il processo è lungo.;
+pronto soccorso;Il {{c1::pronto soccorso}} è al primo piano.;noun, masculine, singular;emergency room;The emergency room is on the first floor.;Il pronto soccorso è al primo piano.;
+proprietario;Il {{c1::proprietario}} della casa.;noun, masculine, singular;owner;The owner of the house.;Il proprietario della casa.;
+proprietaria;La {{c1::proprietaria}} del negozio.;noun, feminine, singular;owner;The owner of the shop.;La proprietaria del negozio.;
+proprio;Questo è il mio {{c1::proprio}} libro.;adj, masculine, singular;own;This is my own book.;Questo è il mio proprio libro.;
+prospettiva;La {{c1::prospettiva}} è buona.;noun, feminine, singular;prospect;The prospect is good.;La prospettiva è buona.;
+prova;Questa è una {{c1::prova}} difficile.;noun, feminine, singular;test;This is a difficult test.;Questa è una prova difficile.;
+provare;Devo {{c1::provare}} la nuova ricetta.;verb, infinitive;try;I need to try the new recipe.;Devo provare la nuova ricetta.;
+qua;{{c1::Qua}} è bello.;adv;here;Here is beautiful.;Qua è bello.;
+qui;{{c1::Qui}} siamo al sicuro.;adv;here;Here we are safe.;Qui siamo al sicuro.;
+qualcosa;Ho {{c1::qualcosa}} da dirti.;pronoun, masculine, singular;something;I have something to tell you.;Ho qualcosa da dirti.;
+quale;{{c1::Quale}} libro preferisci?;pronoun, masculine, singular;which;Which book do you prefer?;Quale libro preferisci?;
+quello;{{c1::Quello}} è il mio amico.;pronoun, masculine, singular;that;That is my friend.;Quello è il mio amico.;
+questa mattina;{{c1::Questa mattina}} ho lavorato.;phrase;this morning;This morning I worked.;Questa mattina ho lavorato.;
+quindi;{{c1::Quindi}}, cosa facciamo?;conj;therefore;Therefore, what do we do?;Quindi, cosa facciamo?;
+raccontare;Mi piace {{c1::raccontare}} storie.;verb, infinitive;tell;I like to tell stories.;Mi piace raccontare storie.;
+raggiungere;Devo {{c1::raggiungere}} la meta.;verb, infinitive;reach;I need to reach the goal.;Devo raggiungere la meta.;
+ragione;Hai {{c1::ragione}}.;noun, feminine, singular;reason;You're right.;Hai ragione.;
+rasoio;Il {{c1::rasoio}} è affilato.;noun, masculine, singular;razor;The razor is sharp.;Il rasoio è affilato.;
+re;Il {{c1::re}} è potente.;noun, masculine, singular;king;The king is powerful.;Il re è potente.;
+rendere;Devo {{c1::rendere}} il libro.;verb, infinitive;return;I need to return the book.;Devo rendere il libro.;
+riassunto;Il {{c1::riassunto}} è breve.;noun, masculine, singular;summary;The summary is brief.;Il riassunto è breve.;
+ribattere;Devo {{c1::ribattere}} alle critiche.;verb, infinitive;retort;I need to retort to the criticism.;Devo ribattere alle critiche.;
+ricetta medica;Ho la {{c1::ricetta medica}}.;noun, feminine, singular;medical prescription;I have the medical prescription.;Ho la ricetta medica.;
+ricordare;Non riesco a {{c1::ricordare}}.;verb, infinitive;remember;I can't remember.;Non riesco a ricordare.;
+ridare;Devo {{c1::ridare}} i soldi.;verb, infinitive;give back;I need to give back the money.;Devo ridare i soldi.;
+riguardare;Questo {{c1::riguarda}} tutti.;verb, 3rd person singular, presente;concerns;This concerns everyone.;Questo riguarda tutti.;
+rilassante;Il massaggio è {{c1::rilassante}}.;adj, masculine, singular;relaxing;The massage is relaxing.;Il massaggio è rilassante.;
+rinascimento;Il {{c1::rinascimento}} italiano.;noun, masculine, singular;renaissance;The Italian Renaissance.;Il rinascimento italiano.;
+riordinare;Devo {{c1::riordinare}} la stanza.;verb, infinitive;tidy up;I need to tidy up the room.;Devo riordinare la stanza.;
+riquadro;Il {{c1::riquadro}} è vuoto.;noun, masculine, singular;box;The box is empty.;Il riquadro è vuoto.;
+riscaldamento;Il {{c1::riscaldamento}} funziona.;noun, masculine, singular;heating;The heating works.;Il riscaldamento funziona.;
+rischiare;Non voglio {{c1::rischiare}}.;verb, infinitive;risk;I don't want to risk.;Non voglio rischiare.;
+rivedere;Devo {{c1::rivedere}} il film.;verb, infinitive;review;I need to review the movie.;Devo rivedere il film.;
+roba;Questa {{c1::roba}} non serve.;noun, feminine, singular;stuff;This stuff is useless.;Questa roba non serve.;
+roccioso;Il terreno è {{c1::roccioso}}.;adj, masculine, singular;rocky;The terrain is rocky.;Il terreno è roccioso.;
+rotte commerciali;Le {{c1::rotte commerciali}} sono importanti.;noun, feminine, plural;trade routes;Trade routes are important.;Le rotte commerciali sono importanti.;
+rotto;Il vetro è {{c1::rotto}}.;adj, masculine, singular;broken;The glass is broken.;Il vetro è rotto.;
+rovina;Il castello è in {{c1::rovina}}.;noun, feminine, singular;ruin;The castle is in ruins.;Il castello è in rovina.;
+rubare;Non {{c1::rubare}}!;verb, infinitive;steal;Don't steal!;Non rubare!;
+saltare;Il bambino {{c1::salta}}.;verb, 3rd person singular, presente;jump;The child jumps.;Il bambino salta.;
+salutare;Devo {{c1::salutare}} gli ospiti.;verb, infinitive;greet;I need to greet the guests.;Devo salutare gli ospiti.;
+salute;{{c1::Salute}} a tutti!;noun, feminine, singular;health;Cheers everyone!;Salute a tutti!;
+sapere;Non {{c1::so}} la risposta.;verb, 1st person singular, presente;know;I don't know the answer.;Non so la risposta.;
+sapore;Il {{c1::sapore}} è buono.;noun, masculine, singular;taste;The taste is good.;Il sapore è buono.;
+sbagliato;È {{c1::sbagliato}}.;adj, masculine, singular;wrong;It's wrong.;È sbagliato.;
+sbaglio;Ho fatto un {{c1::sbaglio}}.;noun, masculine, singular;mistake;I made a mistake.;Ho fatto un sbaglio.;
+sboccato;È un ragazzo {{c1::sboccato}}.;adj, masculine, singular;rude;He's a rude boy.;È un ragazzo sboccato.;
+scale;Le {{c1::scale}} sono ripide.;noun, feminine, plural;stairs;The stairs are steep.;Le scale sono ripide.;
+scaricare;Devo {{c1::scaricare}} il file.;verb, infinitive;download;I need to download the file.;Devo scaricare il file.;
+scarpone;Lo {{c1::scarpone}} è pesante.;noun, masculine, singular;hiking boot;The hiking boot is heavy.;Lo scarpone è pesante.;
+scegliere;Devo {{c1::scegliere}} il colore.;verb, infinitive;choose;I need to choose the color.;Devo scegliere il colore.;
+scendere;Devo {{c1::scendere}} le scale.;verb, infinitive;go down;I need to go down the stairs.;Devo scendere le scale.;
+scherma;La {{c1::scherma}} è uno sport.;noun, feminine, singular;fencing;Fencing is a sport.;La scherma è uno sport.;
+schermo;Lo {{c1::schermo}} è rotto.;noun, masculine, singular;screen;The screen is broken.;Lo schermo è rotto.;
+scherzo;È uno {{c1::scherzo}}.;noun, masculine, singular;joke;It's a joke.;È uno scherzo.;
+sci;Gli {{c1::sci}} sono nuovi.;noun, masculine, plural;skis;The skis are new.;Gli sci sono nuovi.;
+sciare;Mi piace {{c1::sciare}}.;verb, infinitive;ski;I like to ski.;Mi piace sciare.;
+sconfiggere;Hanno {{c1::sconfitto}} il nemico.;verb, past participle, masculine, plural;defeat;They defeated the enemy.;Hanno sconfitto il nemico.;
+scorso;L'anno {{c1::scorso}}.;adj, masculine, singular;last;Last year.;L'anno scorso.;
+scortese;È {{c1::scortese}}.;adj, masculine, singular;rude;He's rude.;È scortese.;
+secolo;Il {{c1::secolo}} scorso.;noun, masculine, singular;century;Last century.;Il secolo scorso.;
+secondo;{{c1::Secondo}} me, hai ragione.;prep;according to;According to me, you're right.;Secondo me, hai ragione.;
+sedere;Devo {{c1::sedere}} qui.;verb, infinitive;sit;I need to sit here.;Devo sedere qui.;
+segnare;Devo {{c1::segnare}} la data.;verb, infinitive;mark;I need to mark the date.;Devo segnare la data.;
+seguire;Devo {{c1::seguire}} le istruzioni.;verb, infinitive;follow;I need to follow the instructions.;Devo seguire le istruzioni.;
+seguito;Nel {{c1::seguito}} del discorso.;noun, masculine, singular;continuation;In the continuation of the speech.;Nel seguito del discorso.;
+selvaggio;L'animale è {{c1::selvaggio}}.;adj, masculine, singular;wild;The animal is wild.;L'animale è selvaggio.;
+semplice;È {{c1::semplice}}.;adj, masculine, singular;simple;It's simple.;È semplice.;
+sempre;{{c1::Sempre}} così.;adv;always;Always like this.;Sempre così.;
+sentiero;Il {{c1::sentiero}} è stretto.;noun, masculine, singular;path;The path is narrow.;Il sentiero è stretto.;
+sentire;Non {{c1::sento}} bene.;verb, 1st person singular, presente;hear;I don't hear well.;Non sento bene.;
+senza;{{c1::Senza}} soldi.;prep;without;Without money.;Senza soldi.;
+smettere;Devo {{c1::smettere}} di fumare.;verb, infinitive;stop;I need to stop smoking.;Devo smettere di fumare.;
+smettila;{{c1::Smettila}} di fare rumore!;verb, 2nd person singular, imperativo;stop it;Stop making noise!;Smettila di fare rumore!;
+soccorso;È un intervento {{c1::soccorso}}.;adj, masculine, singular;emergency;It's an emergency intervention.;È un intervento soccorso.;
+soccorso;Il {{c1::soccorso}} è arrivato.;noun, masculine, singular;help;Help has arrived.;Il soccorso è arrivato.;
+soggiorno;Il {{c1::soggiorno}} è spazioso.;noun, masculine, singular;living room;The living room is spacious.;Il soggiorno è spazioso.;
+sogno;Ho fatto un {{c1::sogno}}.;noun, masculine, singular;dream;I had a dream.;Ho fatto un sogno.;
+soldi;Non ho {{c1::soldi}}.;noun, masculine, plural;money;I don't have money.;Non ho soldi.;
+solito;Come {{c1::solito}}, arriva tardi.;adj, masculine, singular;usual;As usual, he arrives late.;Come solito, arriva tardi.;
+soprattutto;{{c1::Soprattutto}} la matematica.;adv;especially;Especially mathematics.;Soprattutto la matematica.;
+sorprendente;È {{c1::sorprendente}}.;adj, masculine, singular;surprising;It's surprising.;È sorprendente.;
+sotto;{{c1::Sotto}} il tavolo.;prep;under;Under the table.;Sotto il tavolo.;
+sottocutaneo;L'iniezione è {{c1::sottocutaneo}}.;adj, masculine, singular;subcutaneous;The injection is subcutaneous.;L'iniezione è sottocutaneo.;
+spalla;Mi fa male la {{c1::spalla}}.;noun, feminine, singular;shoulder;My shoulder hurts.;Mi fa male la spalla.;
+speciale;È un giorno {{c1::speciale}}.;adj, masculine, singular;special;It's a special day.;È un giorno speciale.;
+spesso;Vado {{c1::spesso}} al cinema.;adv;often;I often go to the cinema.;Vado spesso al cinema.;
+spezzare;Non {{c1::spezzare}} il vetro.;verb, infinitive;break;Don't break the glass.;Non spezzare il vetro.;
+spezzato;Il vetro è {{c1::spezzato}}.;verb, past participle, masculine, singular;broken;The glass is broken.;Il vetro è spezzato.;
+spiedo;Il pollo cuoce allo {{c1::spiedo}}.;noun, masculine, singular;spit;The chicken cooks on the spit.;Il pollo cuoce allo spiedo.;
+spiegare;Devo {{c1::spiegare}} la lezione.;verb, infinitive;explain;I need to explain the lesson.;Devo spiegare la lezione.;
+sprecare;Non {{c1::sprecare}} il tempo.;verb, infinitive;waste;Don't waste time.;Non sprecare il tempo.;
+stagione;La {{c1::stagione}} è bella.;noun, feminine, singular;season;The season is beautiful.;La stagione è bella.;
+stanza;La {{c1::stanza}} è grande.;noun, feminine, singular;room;The room is big.;La stanza è grande.;
+stesso;È lo {{c1::stesso}}.;adj, masculine, singular;same;It's the same.;È lo stesso.;
+stivale;Lo {{c1::stivale}} è comodo.;noun, masculine, singular;boot;The boot is comfortable.;Lo stivale è comodo.;
+storico;È un edificio {{c1::storico}}.;adj, masculine, singular;historic;It's a historic building.;È un edificio storico.;
+strada;La {{c1::strada}} è lunga.;noun, feminine, singular;street;The street is long.;La strada è lunga.;
+stretto;Il passaggio è {{c1::stretto}}.;adj, masculine, singular;narrow;The passage is narrow.;Il passaggio è stretto.;
+studio medico;Lo {{c1::studio medico}} è chiuso.;noun, masculine, singular;medical practice;The medical practice is closed.;Lo studio medico è chiuso.;
+subito;Vieni {{c1::subito}} qui!;adv;immediately;Come here immediately!;Vieni subito qui!;
+suonare;Mi piace {{c1::suonare}} il piano.;verb, infinitive;play;I like to play the piano.;Mi piace suonare il piano.;
+supposizione;È solo una {{c1::supposizione}}.;noun, feminine, singular;supposition;It's just a supposition.;È solo una supposizione.;
+sviluppare;Devo {{c1::sviluppare}} l'idea.;verb, infinitive;develop;I need to develop the idea.;Devo sviluppare l'idea.;
+svolgere;Devo {{c1::svolgere}} il compito.;verb, infinitive;carry out;I need to carry out the task.;Devo svolgere il compito.;
+svolgersi;La riunione si {{c1::svolge}} domani.;verb, 3rd person singular, presente;take place;The meeting takes place tomorrow.;La riunione si svolge domani.;
+taglia;Che {{c1::taglia}} porti?;noun, feminine, singular;size;What size do you wear?;Che taglia porti?;
+tagliare;Devo {{c1::tagliare}} il pane.;verb, infinitive;cut;I need to cut the bread.;Devo tagliare il pane.;
+taglio;Il {{c1::taglio}} è profondo.;noun, masculine, singular;cut;The cut is deep.;Il taglio è profondo.;
+tanto;{{c1::Tanto}} tempo fa.;adv;so long;So long ago.;Tanto tempo fa.;
+temere;Non {{c1::temere}}.;verb, infinitive;fear;Don't fear.;Non temere.;
+tenere;Devo {{c1::tenere}} il segreto.;verb, infinitive;keep;I need to keep the secret.;Devo tenere il segreto.;
+tipico;È {{c1::tipico}} della zona.;adj, masculine, singular;typical;It's typical of the area.;È tipico della zona.;
+tirare;Devo {{c1::tirare}} la corda.;verb, infinitive;pull;I need to pull the rope.;Devo tirare la corda.;
+togliere;Devo {{c1::togliere}} la giacca.;verb, infinitive;remove;I need to remove the jacket.;Devo togliere la giacca.;
+tra;{{c1::Tra}} me e te.;prep;between;Between you and me.;Tra me e te.;
+tradizionale;È un piatto {{c1::tradizionale}}.;adj, masculine, singular;traditional;It's a traditional dish.;È un piatto tradizionale.;
+tradizione;La {{c1::tradizione}} è importante.;noun, feminine, singular;tradition;Tradition is important.;La tradizione è importante.;
+tradurre;Devo {{c1::tradurre}} questo testo.;verb, infinitive;translate;I need to translate this text.;Devo tradurre questo testo.;
+tranquillo;Sii {{c1::tranquillo}}.;adj, masculine, singular;calm;Be calm.;Sii tranquillo.;
+trilocale;L'{{c1::trilocale}} è spazioso.;noun, masculine, singular;three-room apartment;The three-room apartment is spacious.;L'trilocale è spazioso.;
+troppo;È {{c1::troppo}} tardi.;adv;too;It's too late.;È troppo tardi.;
+trovare;Devo {{c1::trovare}} le chiavi.;verb, infinitive;find;I need to find the keys.;Devo trovare le chiavi.;
+turistico;È un luogo {{c1::turistico}}.;adj, masculine, singular;tourist;It's a tourist place.;È un luogo turistico.;
+uccidere;Non {{c1::uccidere}}!;verb, infinitive;kill;Don't kill!;Non uccidere!;
+uguale;Sono {{c1::uguali}}.;adj, masculine, plural;equal;They are equal.;Sono uguali.;
+ulivo;L'{{c1::ulivo}} è antico.;noun, masculine, singular;olive tree;The olive tree is old.;L'ulivo è antico.;
+ungherese;Parlo {{c1::ungherese}}.;adj, masculine, singular;Hungarian;I speak Hungarian.;Parlo ungherese.;
+unico;È {{c1::unico}}.;adj, masculine, singular;unique;It's unique.;È unico.;
+valetto;Il {{c1::valetto}} è giovane.;noun, masculine, singular;valet;The valet is young.;Il valetto è giovane.;
+valle;La {{c1::valle}} è verde.;noun, feminine, singular;valley;The valley is green.;La valle è verde.;
+vedere;Non {{c1::vedo}} niente.;verb, 1st person singular, presente;see;I don't see anything.;Non vedo niente.;
+venire;Devo {{c1::venire}} domani.;verb, infinitive;come;I need to come tomorrow.;Devo venire domani.;
+ventilato;La stanza è {{c1::ventilata}}.;adj, feminine, singular;ventilated;The room is ventilated.;La stanza è ventilata.;
+verde;L'erba è {{c1::verde}}.;adj, feminine, singular;green;The grass is green.;L'erba è verde.;
+verso;Cammino {{c1::verso}} casa.;prep;toward;I walk toward home.;Cammino verso casa.;
+viaggio;Il {{c1::viaggio}} è lungo.;noun, masculine, singular;trip;The trip is long.;Il viaggio è lungo.;
+vicenda;La {{c1::vicenda}} è strana.;noun, feminine, singular;affair;The affair is strange.;La vicenda è strana.;
+vicino;Abito {{c1::vicino}} alla scuola.;adv;near;I live near the school.;Abito vicino alla scuola.;
+vigneto;Il {{c1::vigneto}} è esteso.;noun, masculine, singular;vineyard;The vineyard is extensive.;Il vigneto è esteso.;
+villetta a schiera;La {{c1::villetta a schiera}} è nuova.;noun, feminine, singular;townhouse;The townhouse is new.;La villetta a schiera è nuova.;
+viso;Il suo {{c1::viso}} è bello.;noun, masculine, singular;face;His face is beautiful.;Il suo viso è bello.;
+visto;Ho {{c1::visto}} il film.;verb, past participle, masculine, singular;seen;I saw the movie.;Ho visto il film.;
+vivace;Il bambino è {{c1::vivace}}.;adj, masculine, singular;lively;The child is lively.;Il bambino è vivace.;

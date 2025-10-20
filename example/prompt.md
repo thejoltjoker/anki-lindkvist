@@ -6,7 +6,7 @@ HEADER (must be exactly this):
 Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence
 
 Each data row MUST use semicolon (;) as the field separator, like:
-<Word>;<ExampleSentence>;<WordPOS>;<TranslationWord>;<TranslationSentence>
+<Word>;<ExampleSentence>;<WordPOS>;<TranslationWord>;<TranslationSentence>;<TTSSentence>;<Audio>
 
 ---
 
@@ -35,14 +35,16 @@ Each data row MUST use semicolon (;) as the field separator, like:
 11. Do NOT output example audio, pronunciation, or extra fields.
 12. Output must be valid CSV with exactly the header above and at least one row.
 13. No markdown, no code blocks, no extra text — **just the CSV**.
+14. The TTSSentence field should contain the ExampleSentence without any special markup, i.e. cloze tag.
+15. The Audio field should be left empty.
 
 ---
 
 ### EXAMPLE (do NOT reuse, just emulate format):
 
-Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence
-borsa;La ragazza ha comprato una {{c1::borsa}}.;noun, feminine, singular;bag;The girl bought a bag.
-andare;Devo {{c1::andare}} al negozio dopo pranzo.;verb, infinitive;go;I need to go to the store after lunch.
+Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence;TTSSentence;Audio
+borsa;La ragazza ha comprato una {{c1::borsa}}.;noun, feminine, singular;bag;The girl bought a bag.;La ragazza ha comprato una borsa.;
+andare;Devo {{c1::andare}} al negozio dopo pranzo.;verb, infinitive;go;I need to go to the store after lunch.;Devo andare al negozio dopo pranzo.;
 
 ---
 
