@@ -24,7 +24,8 @@
         <a
           class="replay-button soundLink speaker-icon"
           href="#"
-          onclick="pycmd('play:q:0');"
+          onclick="pycmd('play:q:0'); return false;"
+          draggable="false"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
             <path
@@ -48,8 +49,7 @@
     <div class="box">
       <div id="choices" class="box row"></div>
     </div>
-    <div class="box validate-row">
-      <button onclick="checkAnswer()" class="skip-button">Skip</button>
+    <div class="box">
       <button onclick="checkAnswer()" class="check-button">Check</button>
     </div>
     <div id="data">
