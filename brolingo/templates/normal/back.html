@@ -1,0 +1,78 @@
+<head>
+  <link
+    rel="stylesheet"
+    href="http://127.0.0.1:3000/brolingo/templates/normal/style.css"
+  />
+</head>
+
+<div class="wrapper">
+  <div class="container stack gap-3xl">
+    <div class="stack">
+      <div class="stack gap-sm">
+        <div class="prompt">Write this in English</div>
+      </div>
+      <div class="stack stack-row align-center justify-start gap-sm">
+        <img
+          src="http://127.0.0.1:3000/brolingo/templates/normal/mascot2.png"
+          alt="mascot"
+          class="mascot"
+        />
+        <div class="mascot-bubble">
+          {{#Audio}}
+          <a
+            class="replay-button soundLink speaker-icon"
+            href="#"
+            onclick="pycmd('play:q:0');"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+              <path
+                d="M144 416L192 416L326.1 535.2C332.5 540.9 340.7 544 349.2 544C368.4 544 384 528.4 384 509.2L384 130.8C384 111.6 368.4 96 349.2 96C340.7 96 332.5 99.1 326.1 104.8L192 224L144 224C117.5 224 96 245.5 96 272L96 368C96 394.5 117.5 416 144 416zM476.6 245.5C466.3 237.1 451.2 238.7 442.8 249C434.4 259.3 436 274.4 446.3 282.8C457.1 291.6 464 305 464 320C464 335 457.1 348.4 446.3 357.3C436 365.7 434.5 380.8 442.8 391.1C451.1 401.4 466.3 402.9 476.6 394.6C498.1 376.9 512 350.1 512 320C512 289.9 498.1 263.1 476.5 245.5z"
+              />
+            </svg>
+          </a>
+          <div class="audio">{{Audio}}</div>
+          {{/Audio}}
+          <div class="bubble-text" id="example-sentence">
+            {{ExampleSentence}}
+          </div>
+        </div>
+      </div>
+      <div class="stack gap-sm">
+        <div class="response-line"></div>
+        <div
+          id="response-slot"
+          class="stack stack-row align-center gap-sm"
+        ></div>
+        <div class="response-line"></div>
+      </div>
+      <div class="stack gap-sm">
+        <div
+          id="choices"
+          class="stack stack-row justify-center gap-sm flex-wrap"
+        ></div>
+      </div>
+    </div>
+    <div class="stack stack-row justify-between gap-sm">
+      <div class="result-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+          <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          <path
+            d="M144 224C161.7 224 176 238.3 176 256L176 512C176 529.7 161.7 544 144 544L96 544C78.3 544 64 529.7 64 512L64 256C64 238.3 78.3 224 96 224L144 224zM334.6 80C361.9 80 384 102.1 384 129.4L384 133.6C384 140.4 382.7 147.2 380.2 153.5L352 224L512 224C538.5 224 560 245.5 560 272C560 291.7 548.1 308.6 531.1 316C548.1 323.4 560 340.3 560 360C560 383.4 543.2 402.9 521 407.1C525.4 414.4 528 422.9 528 432C528 454.2 513 472.8 492.6 478.3C494.8 483.8 496 489.8 496 496C496 522.5 474.5 544 448 544L360.1 544C323.8 544 288.5 531.6 260.2 508.9L248 499.2C232.8 487.1 224 468.7 224 449.2L224 262.6C224 247.7 227.5 233 234.1 219.7L290.3 107.3C298.7 90.6 315.8 80 334.6 80z"
+          />
+        </svg>
+      </div>
+      <button onclick="checkAnswer()" class="continue-button">Continue</button>
+    </div>
+  </div>
+</div>
+
+<div id="data">
+  <div id="false-words">{{{FalseWords}}</div>
+  <div id="translation-false-words">{{{TranslationFalseWords}}</div>
+  <div id="similar-words">{{{SimilarWords}}</div>
+  <div id="translation-sentence">{{TranslationSentence}}</div>
+  {{type:TranslationSentence}}
+  <div id="count"></div>
+</div>
+
+<script src="http://127.0.0.1:3000/brolingo/templates/normal/main.js"></script>

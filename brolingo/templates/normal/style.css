@@ -64,6 +64,7 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
 .fancy button,
 .fancy button:hover {
   box-shadow: none;
@@ -317,14 +318,95 @@ h6 {
 
   --size-xs: 5px;
   --size-sm: 10px;
-  --size-m: 15px;
-  --size-l: 20px;
-  --size-xl: 25px;
-  --size-xxl: 30px;
-  --size-xxxl: 35px;
+  --size-md: 15px;
+  --size-lg: 20px;
+  --size-xl: 30px;
+  --size-2xl: 40px;
+  --size-3xl: 80px;
 
   --font-family: "Nunito", sans-serif;
   --base-font-size: 18px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-md);
+  align-items: stretch;
+}
+
+.stack-row {
+  flex-direction: row;
+}
+.stack-row-reverse {
+  flex-direction: row-reverse;
+}
+.stack-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-baseline {
+  align-items: baseline;
+}
+.align-stretch {
+  align-items: stretch;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.gap-xs {
+  gap: var(--size-xs);
+}
+.gap-sm {
+  gap: var(--size-sm);
+}
+.gap-md {
+  gap: var(--size-md);
+}
+.gap-lg {
+  gap: var(--size-lg);
+}
+.gap-xl {
+  gap: var(--size-xl);
+}
+.gap-2xl {
+  gap: var(--size-2xl);
+}
+.gap-3xl {
+  gap: var(--size-3xl);
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
 }
 
 .wrapper {
@@ -340,31 +422,10 @@ h6 {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
   width: 100%;
   max-width: 600px;
-  gap: 30px;
 }
 
-.box {
-  text-align: left;
-  width: 100%;
-  gap: 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-.row {
-  flex-direction: row;
-}
-
-.mascot-container {
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-}
 .mascot {
   width: 140px;
   height: 140px;
@@ -384,7 +445,9 @@ h6 {
 }
 
 button.check-button,
-button.check-button:hover {
+button.check-button:hover,
+button.continue-button,
+button.continue-button:hover {
   border: none;
   font-weight: 800;
   padding: 13px 10px;
@@ -399,12 +462,6 @@ button.check-button:hover {
   text-align: center;
 }
 
-.validate-row {
-  justify-content: space-between;
-  display: flex;
-  flex-direction: row;
-  margin-top: 60px;
-}
 button.word-button {
   font-size: 18px;
   font-weight: 500;
@@ -500,12 +557,6 @@ button.skip-button {
   fill: var(--color-sky-500);
 }
 
-.bubble-text {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
 .text-normal {
   color: #374151;
   font-size: 16px;
@@ -520,19 +571,21 @@ button.skip-button {
 
 #response-slot {
   height: calc(1rem + 30px);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-}
-
-#choices {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 #data {
   display: none;
+}
+
+.result-icon {
+  width: var(--size-3xl);
+  height: var(--size-3xl);
+  padding: var(--size-md);
+  fill: var(--color-lime-800);
+  border-radius: 50%;
+  background: var(--color-lime-200);
+  border: var(--size-xs) solid var(--color-lime-500);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

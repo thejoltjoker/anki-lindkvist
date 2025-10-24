@@ -66,12 +66,16 @@ Where:
 
 ## Todo
 
-- [ ] Default template
+- [ ] Replace localhost urls in templates
+- [ ] Default template, i.e. italian to english
   - [x] Front
+  - [ ] Back
+- [ ] Default template, "hard" i.e. english to italian
+  - [ ] Front
   - [ ] Back
 - [ ] Listening template
   - [ ] Front
   - [ ] Back
-- [ ] Multiple choise template
+- [ ] Multiple choice template
   - [ ] Front
   - [ ] Back
