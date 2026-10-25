@@ -4,7 +4,7 @@
 
 A beautiful Anki card template with an example Italian vocabulary deck.
 
-## Overview
+## 📋 Overview
 
 This repository contains:
 
@@ -20,7 +20,7 @@ The example Italian deck includes:
 - Audio / TTS support for pronunciation
 - Modern, natural Italian examples (CEFR A1–B2 level)
 
-## Project structure
+## 🗂️ Project structure
 
 ```
 card/
@@ -39,7 +39,7 @@ example/
         └── lindkvist-italian-csv/   # Agent skill (same format + evals)
 ```
 
-## Usage
+## 🚀 Usage
 
 ### Card template
 
@@ -63,14 +63,14 @@ Use the skill at `example/agents/skills/lindkvist-italian-csv/`. It appends Lind
 2. Replace `<<REPLACE_WITH_WORDS>>` with Italian lemmas.
 3. Paste into an AI tool; append the generated rows to a CSV and import into Anki.
 
-## Card format
+## 📝 Card format
 
 - **Front:** Italian sentence with cloze deletion
 - **Back:** Full sentence, English translation, and grammatical information
 - **Audio:** Driven by `TTSSentence` (plain Italian without cloze markup)
 - **Tags:** Italian-style labels for filtering (e.g. `sostantivo femminile`, `verbo fare`)
 
-## Data format
+## 📊 Data format
 
 Semicolon-separated CSV with this header:
 
@@ -91,10 +91,10 @@ Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence;TTSSentence;Aud
 
 Escape literal semicolons inside fields as `\;`. Multiple senses of a word → one row per sense.
 
-## License
+## 📄 License
 
 See [LICENSE.md](LICENSE.md) for license information.
 
 ---
 
-_Happy learning!_
+_Happy learning! 🇮🇹_
