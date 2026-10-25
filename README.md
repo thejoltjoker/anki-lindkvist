@@ -4,24 +4,23 @@
 
 A beautiful Anki card template with an example Italian vocabulary deck.
 
-## 📋 Overview
+## Overview
 
 This repository contains:
 
-- **Card Template**: Custom HTML/CSS templates for beautiful Anki cards
-- **Example Deck**: Italian vocabulary deck demonstrating the template
-- **Generation Tools**: AI prompts for creating vocabulary data
-- **Styling**: Modern, clean card design that looks better than default Anki
+- **Card template** — custom HTML/CSS for cloze vocabulary cards
+- **Example deck** — Italian→English vocabulary (CEFR A1–B1), as CSV and a ready-to-import `.apkg`
+- **Generation tools** — an AI prompt and an agent skill for producing more rows in the same format
 
 The example Italian deck includes:
 
 - Cloze deletion sentences for context-based learning
 - Part-of-speech tagging and grammatical information
 - English translations for both words and example sentences
-- Audio support for pronunciation
-- Modern, natural Italian examples (CEFR A1-B2 level)
+- Audio / TTS support for pronunciation
+- Modern, natural Italian examples (CEFR A1–B2 level)
 
-## 🗂️ Project Structure
+## Project structure
 
 ```
 card/
@@ -30,75 +29,72 @@ card/
 └── style.css           # Card styling
 
 example/
-├── prompt.md           # AI prompt for generating vocabulary data
-├── words.csv           # Example Italian vocabulary data
-└── screenshot.png      # Card preview image
+├── LindkvistItaliano.apkg      # Exported Anki deck
+├── LindkvistItalianoA1.csv     # A1 vocabulary
+├── LindkvistItalianoA2.csv     # A2 vocabulary
+├── LindkvistItalianoB1.csv     # B1 vocabulary
+└── agents/
+    ├── PROMPT.md               # Standalone prompt for generating CSV rows
+    └── skills/
+        └── lindkvist-italian-csv/   # Agent skill (same format + evals)
 ```
 
-## 🚀 Usage
+## Usage
 
-### Using the Card Template
+### Card template
 
-1. **Copy the template files:**
+1. Copy `card/front.html`, `card/back.html`, and `card/style.css` into your Anki note type.
+2. Ensure field names match the CSV columns below (`ExampleSentence`, `WordPOS`, etc.).
 
-   - Copy `card/front.html`, `card/back.html`, and `card/style.css` to your Anki deck
-   - Update your deck's card templates with these files
+### Example deck
 
-2. **Try the example deck:**
-   - Import `example/words.csv` to see the template in action
-   - Install [AwesomeTTS](https://ankiweb.net/shared/info/1436550454) for text-to-speech functionality
+- Import `example/LindkvistItaliano.apkg`, or import one of the CEFR CSVs (`A1` / `A2` / `B1`).
+- Install [AwesomeTTS](https://ankiweb.net/shared/info/1436550454) (or similar) if you want text-to-speech on `TTSSentence`.
 
-### Creating Your Own Deck
+### Creating new content
 
-1. **Use the generation prompt:**
-   - Copy `example/prompt.md` and modify for your target language
-   - Use AI to generate vocabulary data in the specified CSV format
-   - Import the generated CSV into Anki
+**Option A — agent skill (recommended)**
 
-## 📝 Card Format
+Use the skill at `example/agents/skills/lindkvist-italian-csv/`. It appends Lindkvist-format rows (header + cloze rules, tags, conjugated verb forms) to a CSV.
 
-Each card contains:
+**Option B — prompt**
+
+1. Open `example/agents/PROMPT.md`.
+2. Replace `<<REPLACE_WITH_WORDS>>` with Italian lemmas.
+3. Paste into an AI tool; append the generated rows to a CSV and import into Anki.
+
+## Card format
 
 - **Front:** Italian sentence with cloze deletion
-- **Back:** Complete sentence with translation and grammatical information
-- **Audio:** Text-to-speech pronunciation
-- **Tags:** Organized by categories for easy filtering
+- **Back:** Full sentence, English translation, and grammatical information
+- **Audio:** Driven by `TTSSentence` (plain Italian without cloze markup)
+- **Tags:** Italian-style labels for filtering (e.g. `sostantivo femminile`, `verbo fare`)
 
-## Creating New Content
+## Data format
 
-1. **Use the generation prompt:**
-   - Copy `example/prompt.md` and modify for your target language
-   - Follow the CSV format specified in the prompt
-   - Generate vocabulary data using AI tools
-   - Import the generated CSV into Anki
-
-## 📊 Data Format
-
-The vocabulary data follows this CSV structure:
+Semicolon-separated CSV with this header:
 
 ```
-Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence
+Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence;TTSSentence;Audio;Tags
 ```
 
-Where:
+| Field | Content |
+|-------|---------|
+| `Word` | Form being taught (conjugated for finite verbs; otherwise the lemma) |
+| `ExampleSentence` | Short Italian sentence with the target in `{{c1::…}}` |
+| `WordPOS` | POS plus minimal grammar (`noun, feminine, singular`, `verb, 3rd person singular, presente`, …) |
+| `TranslationWord` | Concise English gloss |
+| `TranslationSentence` | Natural English of the whole sentence |
+| `TTSSentence` | Same as `ExampleSentence` with cloze markup removed |
+| `Audio` | Leave empty (filled by Anki/TTS add-ons) |
+| `Tags` | Space-separated Italian tags matching the Lindkvist deck |
 
-- `Word`: Italian lemma (base form)
-- `ExampleSentence`: Italian sentence with cloze marker `{{c1::word}}`
-- `WordPOS`: Part of speech with grammatical tags
-- `TranslationWord`: English translation
-- `TranslationSentence`: English translation of the full sentence
+Escape literal semicolons inside fields as `\;`. Multiple senses of a word → one row per sense.
 
-## 🎯 Learning Tips
-
-1. **Focus on context:** The cloze sentences provide natural context for vocabulary
-2. **Use audio:** Enable text-to-speech for pronunciation practice
-3. **Review regularly:** Follow Anki's spaced repetition algorithm
-4. **Filter by tags:** Use Anki's tag system to focus on specific topics
-
-## 📄 License
+## License
 
 See [LICENSE.md](LICENSE.md) for license information.
 
 ---
 
-_Happy learning! 🇮🇹_
+_Happy learning!_

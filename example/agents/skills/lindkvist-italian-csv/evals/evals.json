@@ -1,0 +1,50 @@
+{
+  "skill_name": "lindkvist-italian-csv",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Generate Lindkvist Anki CSV rows for: borsa, adesso, americano. Append them to ./output.csv in the working directory (create the file with the correct header if needed).",
+      "expected_output": "A CSV file output.csv with the Lindkvist 8-column header and at least one row each for borsa, adesso, and americano, with cloze markup, empty Audio, TTSSentence without cloze, and Italian-style Tags.",
+      "files": [],
+      "expectations": [
+        "CSV has exact header Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence;TTSSentence;Audio;Tags",
+        "File contains at least one data row for each of borsa, adesso, and americano",
+        "Every ExampleSentence contains exactly one {{c1::…}} cloze marker",
+        "Audio field is empty on every data row",
+        "TTSSentence equals ExampleSentence with cloze markup stripped",
+        "Tags use Italian Lindkvist-style labels (e.g. sostantivo, avverbio, aggettivo)",
+        "Each data row has exactly 8 semicolon-separated fields"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Add Anki cards for these Italian verbs: fare, essere, dovere. Follow Lindkvist CSV rules (conjugated Word forms, not bare infinitives unless the cloze is truly infinitive). Write to ./verbs.csv.",
+      "expected_output": "A verbs.csv with correct header and rows where Word is conjugated (or infinitive only when the sentence teaches infinitive after a modal), WordPOS includes person/tense, Tags look like Lindkvist verb tags, Audio empty.",
+      "files": [],
+      "expectations": [
+        "CSV has exact header Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence;TTSSentence;Audio;Tags",
+        "File contains rows covering fare, essere, and dovere (as conjugated forms or infinitive-after-modal)",
+        "Word column is not a bare infinitive unless WordPOS is verb, infinitive and the cloze teaches that infinitive",
+        "WordPOS for finite verbs includes person and/or tense detail",
+        "Tags use Italian verb-style labels (verbo …)",
+        "Every ExampleSentence contains {{c1::…}} and TTSSentence has no cloze markup",
+        "Audio field is empty on every data row"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I need cloze flashcards for the polysemous Italian word 'piano' and the phrase 'a partire da'. Put the rows in ./polysemy.csv using the Lindkvist Anki format.",
+      "expected_output": "A polysemy.csv with multiple rows for distinct senses of piano plus at least one row for a partire da; each row full 8 fields with {{c1::}} cloze and matching TTSSentence.",
+      "files": [],
+      "expectations": [
+        "CSV has exact header Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence;TTSSentence;Audio;Tags",
+        "At least two distinct sense rows for piano (different TranslationWord and/or sentence meaning)",
+        "At least one row for a partire da",
+        "Every ExampleSentence contains {{c1::…}} wrapping the target",
+        "TTSSentence matches ExampleSentence with cloze markup removed",
+        "Audio field is empty on every data row",
+        "Each data row has exactly 8 semicolon-separated fields"
+      ]
+    }
+  ]
+}
