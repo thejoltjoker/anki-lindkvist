@@ -3,10 +3,10 @@ Input: one or more Italian lemmas (single words).
 Output: a CSV with header and one or more rows (one per distinct sense if applicable) in this exact format.
 
 HEADER (must be exactly this):
-Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence
+Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence;Tags
 
 Each data row MUST use semicolon (;) as the field separator, like:
-<Word>;<ExampleSentence>;<WordPOS>;<TranslationWord>;<TranslationSentence>;<TTSSentence>;<Audio>
+<Word>;<ExampleSentence>;<WordPOS>;<TranslationWord>;<TranslationSentence>;<TTSSentence>;<Audio>;<Tags>
 
 ---
 
@@ -37,14 +37,17 @@ Each data row MUST use semicolon (;) as the field separator, like:
 13. No markdown, no code blocks, no extra text — **just the CSV**.
 14. The TTSSentence field should contain the ExampleSentence without any special markup, i.e. cloze tag.
 15. The Audio field should be left empty.
+16. Don't use the infinitive form of verbs as `Word`, use the conjugated form.
+17. Try to make the sentences natural but varied and not too similar to each other.
 
 ---
 
 ### EXAMPLE (do NOT reuse, just emulate format):
 
-Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence;TTSSentence;Audio
-borsa;La ragazza ha comprato una {{c1::borsa}}.;noun, feminine, singular;bag;The girl bought a bag.;La ragazza ha comprato una borsa.;
-andare;Devo {{c1::andare}} al negozio dopo pranzo.;verb, infinitive;go;I need to go to the store after lunch.;Devo andare al negozio dopo pranzo.;
+Word;ExampleSentence;WordPOS;TranslationWord;TranslationSentence;TTSSentence;Audio;Tags
+borsa;La ragazza ha comprato una {{c1::borsa}}.;noun, feminine, singular;bag;The girl bought a bag.;La ragazza ha comprato una borsa.;;sostantivo femminile singolare
+andare;Devo {{c1::andare}} al negozio dopo pranzo.;verb, infinitive;go;I need to go to the store after lunch.;Devo andare al negozio dopo pranzo.;;verbo infinito primo persona singolare andare
+è stata;{{c1::È stata}} una giornata lunga.;verb, 3rd person singular, passato prossimo;be;It was a long day.;È stata una giornata lunga.;;verbo 3 persona singolare passato prossimo essere
 
 ---
 
@@ -53,3 +56,8 @@ If multiple words are provided (comma-separated), generate rows for each in orde
 
 INPUT:
 <<REPLACE_WITH_WORDS>>
+
+OUTPUT:
+
+- Don't create any scripts or code, just generate the output data and append new rows to the CSV file.
+- Append new rows to [output.csv](./example/output.csv)
